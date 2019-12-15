@@ -123,11 +123,11 @@ h6,
 }
 
 .btn-primary:active {
-  background: #542cb7 !important
+  background: white !important
 }
 
 .btn-primary:hover {
-  background: #542cb7
+  background: white;
 }
 
 .btn-primary.focus,
@@ -163,7 +163,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #fff;
+  background-color: #ffffff;
   z-index: 999;
   display: flex;
   align-items: center;
@@ -252,7 +252,7 @@ a:hover {
 }
 
 .bg-primary {
-  background: #41228e !important
+  background: #ffffff  !important
 }
 
 .bg-gray {
@@ -419,7 +419,7 @@ textarea.form-control {
 }
 
 .navigation.nav-bg {
-  background-color: #41228e;
+  background-color: white;
   padding: 15px 100px
 }
 
@@ -439,7 +439,8 @@ textarea.form-control {
 .navbar .nav-item .nav-link {
   font-family: bwnistaint-xbd;
   text-transform: uppercase;
-  padding: 15px
+  padding: 15px;
+  color: black;
 }
 
 .navbar .nav-item.active {
@@ -447,7 +448,7 @@ textarea.form-control {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-  color: #fff
+  color: #000000;
 }
 
 .hero-area {
