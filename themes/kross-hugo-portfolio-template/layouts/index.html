@@ -1,5 +1,5 @@
 {{ define "main" }}
-
+<script src="https://kit.fontawesome.com/f54a497c0c.js" crossorigin="anonymous"></script>
   <!-- hero area -->
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
     <div class="container">
@@ -37,15 +37,53 @@
 <!--      <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">-->
 <!--    </div>-->
     <!-- social icon -->
-    <ul class="list-unstyled ml-5 mt-3 position-relative zindex-1">
-      {{ range .Site.Data.homepage.banner.socialLinks }}
-      <li class="mb-3"><a class="text-white" href="{{.URL}}"><i class="{{.icon}}"></i></a></li>
-      {{ end }}
-    </ul>
+<!--    <ul class="list-group-horizontal ml-5 mt-3 position-relative zindex-1">-->
+<!--      {{ range .Site.Data.homepage.banner.socialLinks }}-->
+<!--      <li class="mb-3"><a class="text-black" href="{{.URL}}"><i class="{{.icon}}"></i></a></li>-->
+<!--      {{ end }}-->
+<!--    </ul>-->
     <!-- /social icon -->
+
   </section>
   <!-- /hero area -->
 
+<div class="text-center">
+    <ul id="social-media" class="icons">
+      {{ range .Site.Languages -}}
+      {{ if ne .LanguageName $.Site.Language.LanguageName }}
+      <li><a href="/{{ .Lang }}">{{ .LanguageName }}</a></li>
+      {{ end }}
+      {{ end }}
+      {{ if .Site.Author.twitter }}
+      <li><a href="https://twitter.com/{{ .Site.Author.twitter }}" class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+      {{ end }} {{ if .Site.Author.linkedin }}
+      <li><a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}" class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+      {{ end }} {{ if .Site.Author.github }}
+      <li><a href="https://github.com/{{ .Site.Author.github }}" class="fab fa-github fa-lg" aria-hidden="true"></i></a></li>
+      {{ end }} {{ if .Site.Author.gitlab }}
+      <li><a href="https://gitlab.com/{{ .Site.Author.gitlab }}" class="fab fa-gitlab fa-lg" aria-hidden="true"></i></a></li>
+      {{ end }} {{ if .Site.Author.facebook }}
+      <li><a href="https://www.facebook.com/{{ .Site.Author.facebook }}" class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+      {{ end }} {{ if .Site.Author.instagram }}
+      <li><a href="https://instagram.com/{{ .Site.Author.instagram }}" class="fab fa-instagram fa-lg" aria-hidden="true"></i></a></li>
+      {{ end }}
+    </ul>
+</div>
+<!--<div class="text-center">-->
+<!--<ul class="icons">-->
+<!--  <li><a href="#" class="fab fa-twitter"></a></li>-->
+<!--  <li><a href="#" class="fab fa-instagram"></a></li>-->
+<!--  <li><a href="#" class="fab fa-facebook"></a></li>-->
+<!--</ul>-->
+<!--</div>-->
+
+<!--<i class="fab fa-facebook"></i>-->
+<!--&lt;!&ndash;Twitter&ndash;&gt;-->
+<!--<a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>-->
+<!--&lt;!&ndash;Twitter&ndash;&gt;-->
+<!--<a class="btn-floating btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>-->
+<!--&lt;!&ndash;Twitter&ndash;&gt;-->
+<!--<a class="btn-floating btn-sm btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>-->
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">

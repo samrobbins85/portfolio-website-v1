@@ -1,6 +1,6 @@
 # banner
 banner:
-  title : "Hi! I’m <br> Sam <br> Durham Student"
+  title : "Hi! I’m Sam"
   socialLinks:
     - icon : "ti-facebook"
       URL : "#"
