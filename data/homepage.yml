@@ -41,45 +41,133 @@ skill:
     - title : "Web App"
       progress : "70%"
       color : "#ffbcaa"
+  item:
+    - logo: "https://cdn.svgporn.com/logos/javascript.svg"
+      title: "JavaScript"
+      description: "I have used JavaScript both in personal projects and in coursework. In coursework I used both the p5 library and node.js to make websites, and achieved a 2:1 for my work. \n \nI also used JavaScript in the project for DurHack 2019, and was placed as a finalist."
+
+    - logo: "https://cdn.svgporn.com/logos/python.svg"
+      title: "Python"
+      description: "
+      * Some\n
+      * Random\n
+      * Markdown "
+
+    - logo: "https://cdn.svgporn.com/logos/php.svg"
+      title: "PHP"
+      description: "I have used PHP in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/java.svg"
+      title: "Java"
+      description: "I have used Java in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/c.svg"
+      title: "C"
+      description: "I have used C in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/haskell-icon.svg"
+      title: "Haskell"
+      description: "I have used Haskell in a range of projects"
+
+    - logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/800px-LaTeX_logo.svg.png"
+      title: "LaTeX"
+      description: "I have used LaTeX in a range of projects"
+
+    - logo: "https://camo.githubusercontent.com/7c9b27101ba491969d016f2f2427c3e066f7bd0b/68747470733a2f2f63646e2e7261776769742e636f6d2f6f64622f6f6666696369616c2d626173682d6c6f676f2f6d61737465722f6173736574732f4c6f676f732f4964656e746974792f504e472f424153485f6c6f676f2d7472616e73706172656e742d62672d636f6c6f722e706e67"
+      title: "Bash"
+      description: "I have used Bash in a range of projects"
+
+    - logo: "https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png"
+      title: "PowerShell"
+      description: "I have used PowerShell in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/nodejs-icon.svg"
+      title: "Node.js"
+      description: "I have used Node.js in a range of projects"
+
+    - logo: "https://www.wireshark.org/assets/images/sflogo.png"
+      title: "Wireshark"
+      description: "I have used Wireshark in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/git-icon.svg"
+      title: "Git"
+      description: "I have used Git in a range of projects"
+
+    - logo: "https://pbs.twimg.com/profile_images/580131056629735424/2ENTk2K2_400x400.png"
+      title: "Metasploit"
+      description: "I have used Metasploit in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/twilio.svg"
+      title: "Twilio"
+
+    - logo: "https://cdn.svgporn.com/logos/bootstrap.svg"
+      title: "Boostrap"
+      description: "I have used Bootstrap in a range of projects"
+
+    - logo: "https://user-images.githubusercontent.com/98330/63813335-20cd4b80-c8e2-11e9-9c04-e4dbf7285aa1.png"
+      title: "NumPy"
+      description: "I have used NumPy in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/react.svg"
+      title: "React"
+      description: "I have used React in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/arduino.svg"
+      title: "Arduino"
+      description: "I have used Arduino in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/raspberry-pi.svg"
+      title: "Raspberry Pi"
+      description: "I have used Raspberry Pi in a range of projects"
+
+    - logo: "https://cdn.svgporn.com/logos/linux-tux.svg"
+      title: "Linux"
+      description: "I have used Linux in a range of projects"
+
+    - logo: "https://pbs.twimg.com/profile_images/1146106967477379073/J3fzYcnz_400x400.png"
+      title: "MongoDB"
+      description: "I have used MongoDB in a range of projects"
+
+    - logo: "https://unicons.iconscout.com/release/v2.0.1/svg/line/database.svg"
+      title: "SQL"
+      description: "I have used SQL in a range of projects"
 
 # experience
 experience:
   enable : true
   item: 
-    - logo : "images/experience/icon-1.png"
-      title : "Junior UX Designer"
-      company : "WEBEX"
-      duration : "Jan 2007 - Feb 2009"
+    - logo : "https://cdn.svgporn.com/logos/google-icon.svg"
+      title : "init.g"
+      company : "Google"
+      duration : "Nov 2019"
       
-    - logo : "images/experience/icon-2.png"
-      title : "UX & UI Designer"
-      company : "AUGMEDIX"
-      duration : "Mar 2009 - Aug 2014"
+    - logo : "https://pmt.physicsandmathstutor.com/wp-content/uploads/favicon.png"
+      title : "Web Developer"
+      company : "Physics and Maths Tutor"
+      duration : "Oct 2019 - Present"
       
-    - logo : "images/experience/icon-1.png"
-      title : "Senior UI Designer"
-      company : "THEMEFISHER"
-      duration : "Sep 2014 - Present"
+    - logo : "https://upload.wikimedia.org/wikipedia/en/9/94/Tyne_and_Wear_Passenger_Transport_Executive_%28Nexus_logo%29.png"
+      title : "Work Experience"
+      company : "Nexus"
+      duration : "Jul 2017"
+
+    - logo: "https://nustem.uk/wp/wp-content/uploads/2017/02/logo-banner.png"
+      title: "Work Experience"
+      company: "Nexus"
+      duration: "Mar 2015 - Apr 2015"
 
 # education
 education:
   enable : true
   item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
+    - title : "BSc Computer Science"
+      year : "2018 - Present"
+      academy : "Durham University"
       
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
+    - title : "GCSEs and A Levels"
+      year : "2013-2018"
+      academy : "The King Edward VI School"
+
 
 # service
 service:

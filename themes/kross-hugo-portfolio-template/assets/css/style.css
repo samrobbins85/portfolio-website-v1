@@ -5,6 +5,13 @@ VERSION: Versoin Number
 -------------------------------------------------------------------*/
 @import "https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Roboto:300,400,500,700";
 
+
+.contain {object-fit: contain;}
+
+.imagemargin {
+  margin-bottom: 40px;
+}
+
 @font-face {
   font-family: bwnistaint-xbd;
   src: url(../fonts/BwNistaInt-xBd.woff) format("woff");
@@ -153,7 +160,7 @@ body {
 }
 
 ::selection {
-  background: #542cb7;
+  background: black;
   color: #fff
 }
 
@@ -432,7 +439,7 @@ textarea.form-control {
 @media(max-width:991px) {
   .navigation {
     padding: 20px;
-    background: #41228e
+    background: white;
   }
 }
 
@@ -893,7 +900,6 @@ ul.icons li a {
     line-height: 6.75em;
     overflow: hidden;
     text-align: center;
-    text-indent: 3.75em;
     white-space: nowrap;
 }
 

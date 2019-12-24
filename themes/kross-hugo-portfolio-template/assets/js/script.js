@@ -116,6 +116,7 @@
         infinite: true,
         slidesToShow: 5,
         slidesToScroll: 1,
+        speed: 10,
         autoplay: true,
         dots: false,
         arrows: false,
@@ -170,3 +171,4 @@
 
 
 })(jQuery);
+
