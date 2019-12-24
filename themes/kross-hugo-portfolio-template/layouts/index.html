@@ -1,6 +1,15 @@
 {{ define "main" }}
 <script src="https://kit.fontawesome.com/f54a497c0c.js" crossorigin="anonymous"></script>
-  <!-- hero area -->
+
+<!--
+  _    _
+ | |  | |                             /\
+ | |__| |   ___   _ __    ___        /  \     _ __    ___    __ _
+ |  __  |  / _ \ | '__|  / _ \      / /\ \   | '__|  / _ \  / _` |
+ | |  | | |  __/ | |    | (_) |    / ____ \  | |    |  __/ | (_| |
+ |_|  |_|  \___| |_|     \___/    /_/    \_\ |_|     \___|  \__,_|
+
+ -->
   <section class="hero-area bg-primary overflow-hidden" id="parallax">
     <div class="container">
       <div class="row">
@@ -9,43 +18,20 @@
         </div>
       </div>
     </div>
-<!--    <div class="layer-bg w-100">-->
-<!--      <img class="img-fluid w-100" src="{{`images/illustrations/leaf-bg.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l2">-->
-<!--      <img src="{{`images/illustrations/dots-cyan.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l3">-->
-<!--      <img src="{{`images/illustrations/leaf-orange.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l4">-->
-<!--      <img src="{{`images/illustrations/dots-orange.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l5">-->
-<!--      <img src="{{`images/illustrations/leaf-yellow.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l6">-->
-<!--      <img src="{{`images/illustrations/leaf-cyan.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l7">-->
-<!--      <img src="{{`images/illustrations/dots-group-orange.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l8">-->
-<!--      <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-<!--    <div class="layer" id="l9">-->
-<!--      <img src="{{`images/illustrations/leaf-cyan-2.svg` | relURL}}" alt="bg-shape">-->
-<!--    </div>-->
-    <!-- social icon -->
-<!--    <ul class="list-group-horizontal ml-5 mt-3 position-relative zindex-1">-->
-<!--      {{ range .Site.Data.homepage.banner.socialLinks }}-->
-<!--      <li class="mb-3"><a class="text-black" href="{{.URL}}"><i class="{{.icon}}"></i></a></li>-->
-<!--      {{ end }}-->
-<!--    </ul>-->
-    <!-- /social icon -->
+
 
   </section>
-  <!-- /hero area -->
+
+<!--
+   _____                  _           _     _        _           _
+  / ____|                (_)         | |   | |      (_)         | |
+ | (___     ___     ___   _    __ _  | |   | |       _   _ __   | | __  ___
+  \___ \   / _ \   / __| | |  / _` | | |   | |      | | | '_ \  | |/ / / __|
+  ____) | | (_) | | (__  | | | (_| | | |   | |____  | | | | | | |   <  \__ \
+ |_____/   \___/   \___| |_|  \__,_| |_|   |______| |_| |_| |_| |_|\_\ |___/
+
+
+-->
 <div class="text-center">
     <ul id="social-media" class="icons">
       {{ range .Site.Languages -}}
@@ -53,36 +39,32 @@
       <li><a href="/{{ .Lang }}">{{ .LanguageName }}</a></li>
       {{ end }}
       {{ end }}
-      {{ if .Site.Author.twitter }}
-      <li><a href="https://twitter.com/{{ .Site.Author.twitter }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/twitter.svg" style="width: 5em; height: 5em"></a></li>
-      {{ end }} {{ if .Site.Author.linkedin }}
-      <li><a href="https://www.linkedin.com/in/{{ .Site.Author.linkedin }}" aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/linkedin.svg" style="width: 5em; height: 5em"></a></li>
-      {{ end }} {{ if .Site.Author.github }}
-      <li><a href="https://github.com/{{ .Site.Author.github }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" style="width: 5em; height: 5em"> </a></li>
-      {{ end }} {{ if .Site.Author.gitlab }}
-      <li><a href="https://gitlab.com/{{ .Site.Author.gitlab }}" aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/gitlab.svg" style="width: 5em; height: 5em"></a></li>
-      {{ end }} {{ if .Site.Author.facebook }}
-      <li><a href="https://www.facebook.com/{{ .Site.Author.facebook }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/facebook.svg" style="width: 5em; height: 5em"></a></li>
-      {{ end }} {{ if .Site.Author.instagram }}
-      <li><a href="https://instagram.com/{{ .Site.Author.instagram }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/instagram-icon.svg" style="width: 5em; height: 5em"></a></li>
+      {{ if .Site.Data.homepage.social.twitter }}
+      <li><a href="https://twitter.com/{{ .Site.Data.homepage.social.twitter }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/twitter.svg" style="width: 5em; height: 5em"></a></li>
+      {{ end }} {{ if .Site.Data.homepage.social.linkedin }}
+      <li><a href="https://www.linkedin.com/in/{{ .Site.Data.homepage.social.linkedin }}" aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/linkedin.svg" style="width: 5em; height: 5em"></a></li>
+      {{ end }} {{ if .Site.Data.homepage.social.github }}
+      <li><a href="https://github.com/{{ .Site.Data.homepage.social.github }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" style="width: 5em; height: 5em"> </a></li>
+      {{ end }} {{ if .Site.Data.homepage.social.gitlab }}
+      <li><a href="https://gitlab.com/{{ .Site.Data.homepage.social.gitlab }}" aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/gitlab.svg" style="width: 5em; height: 5em"></a></li>
+      {{ end }} {{ if .Site.Data.homepage.social.facebook }}
+      <li><a href="https://www.facebook.com/{{ .Site.Data.homepage.social.facebook }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/facebook.svg" style="width: 5em; height: 5em"></a></li>
+      {{ end }} {{ if .Site.Data.homepage.social.instagram }}
+      <li><a href="https://instagram.com/{{ .Site.Data.homepage.social.instagram }}"  aria-hidden="true"></i> <img class="contain" src="https://cdn.svgporn.com/logos/instagram-icon.svg" style="width: 5em; height: 5em"></a></li>
       {{ end }}
     </ul>
 </div>
-<!--<div class="text-center">-->
-<!--<ul class="icons">-->
-<!--  <li><a href="#" class="fab fa-twitter"></a></li>-->
-<!--  <li><a href="#" class="fab fa-instagram"></a></li>-->
-<!--  <li><a href="#" class="fab fa-facebook"></a></li>-->
-<!--</ul>-->
-<!--</div>-->
 
-<!--<i class="fab fa-facebook"></i>-->
-<!--&lt;!&ndash;Twitter&ndash;&gt;-->
-<!--<a class="btn-floating btn-lg btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>-->
-<!--&lt;!&ndash;Twitter&ndash;&gt;-->
-<!--<a class="btn-floating btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>-->
-<!--&lt;!&ndash;Twitter&ndash;&gt;-->
-<!--<a class="btn-floating btn-sm btn-tw" type="button" role="button"><i class="fab fa-twitter"></i></a>-->
+
+<!--
+             _                       _
+     /\     | |                     | |
+    /  \    | |__     ___    _   _  | |_
+   / /\ \   | '_ \   / _ \  | | | | | __|
+  / ____ \  | |_) | | (_) | | |_| | | |_
+ /_/    \_\ |_.__/   \___/   \__,_|  \__|
+
+-->
   {{ if .Site.Data.homepage.about.enable }}
   <!-- about -->
   <section class="section">
@@ -103,10 +85,22 @@
   {{ end }}
 
 
-{{- .Site.Home.Content -}}
+<!--
+
+   _____   _      _   _   _
+  / ____| | |    (_) | | | |
+ | (___   | | __  _  | | | |  ___
+  \___ \  | |/ / | | | | | | / __|
+  ____) | |   <  | | | | | | \__ \
+ |_____/  |_|\_\ |_| |_| |_| |___/
+
+
+
+-->
+{{ if .Site.Data.homepage.skill.enable }}
 
 {{ range .Site.Data.homepage.skill.item }}
-<div class="modal fade" id="{{ replace .title " " "_"}}" tabindex="-1" role="dialog" aria-labelledby="{{ replace .title " " "_"}}" aria-hidden="true">
+<div class="modal fade" id="{{ replace (replace .title " " "_") "." "_" }}" tabindex="-1" role="dialog" aria-labelledby="{{ replace (replace .title " " "_") "." "_" }}" aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -116,7 +110,8 @@
         </button>
       </div>
       <div class="modal-body">
-        <p style="white-space: pre-line">{{.description | markdownify}}</p>
+
+        <p style="white-space: pre-line">{{.description | safeHTML}}</p>
 
       </div>
       <div class="modal-footer">
@@ -127,7 +122,6 @@
 </div>
 {{ end }}
 
-  {{ if .Site.Data.homepage.skill.enable }}
   <!-- skills -->
   <section class="section">
     <div class="container">
@@ -157,10 +151,8 @@
         <div class="row justify-content-center">
           {{ range .Site.Data.homepage.skill.item }}
           <div class="imagemargin col-lg-2 col-md-4 text-center">
-            <img class="contain" src="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace .title " " "_"}}">
-<!--            <p class="mb-0">{{.duration}}</p>-->
+            <img class="contain" src="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
             <h4>{{.title }}</h4>
-<!--            <h6 class="text-light">{{.company }}</h6>-->
           </div>
           {{ end }}
         </div>
@@ -170,6 +162,19 @@
   </section>
   <!-- /skills -->
   {{ end }}
+
+<!--
+
+  ______                                _
+ |  ____|                              (_)
+ | |__    __  __  _ __     ___   _ __   _    ___   _ __     ___    ___
+ |  __|   \ \/ / | '_ \   / _ \ | '__| | |  / _ \ | '_ \   / __|  / _ \
+ | |____   >  <  | |_) | |  __/ | |    | | |  __/ | | | | | (__  |  __/
+ |______| /_/\_\ | .__/   \___| |_|    |_|  \___| |_| |_|  \___|  \___|
+                 | |
+                 |_|
+
+-->
 
   {{ if .Site.Data.homepage.experience.enable }}
   <!-- experience -->
@@ -193,6 +198,20 @@
   <!-- ./experience -->
   {{ end }}
 
+
+
+<!--
+
+  ______       _                          _     _
+ |  ____|     | |                        | |   (_)
+ | |__      __| |  _   _    ___    __ _  | |_   _    ___    _ __
+ |  __|    / _` | | | | |  / __|  / _` | | __| | |  / _ \  | '_ \
+ | |____  | (_| | | |_| | | (__  | (_| | | |_  | | | (_) | | | | |
+ |______|  \__,_|  \__,_|  \___|  \__,_|  \__| |_|  \___/  |_| |_|
+
+
+
+-->
   {{ if .Site.Data.homepage.education.enable }}
   <!-- education -->
   <section class="section position-relative">
@@ -224,6 +243,8 @@
   {{ end }}
 
 
+
+
   {{ if .Site.Data.homepage.service.enable }}
   <!-- services -->
   <section class="section">
@@ -249,6 +270,19 @@
   <!-- /services -->
   {{ end }}
 
+
+<!--
+
+  _____                   _      __           _   _
+ |  __ \                 | |    / _|         | | (_)
+ | |__) |   ___    _ __  | |_  | |_    ___   | |  _    ___
+ |  ___/   / _ \  | '__| | __| |  _|  / _ \  | | | |  / _ \
+ | |      | (_) | | |    | |_  | |   | (_) | | | | | | (_) |
+ |_|       \___/  |_|     \__| |_|    \___/  |_| |_|  \___/
+
+
+
+-->
 
   {{ if .Site.Data.homepage.portfolio.enable }}
   <!-- portfolio -->
@@ -279,39 +313,6 @@
   {{ end }}
 
 
-<!--  {{ if .Site.Data.homepage.testimonial.enable }}-->
-<!--  &lt;!&ndash; testimonial &ndash;&gt;-->
-<!--  <section class="section bg-primary position-relative testimonial-bg-shapes">-->
-<!--    <div class="container">-->
-<!--      <div class="row">-->
-<!--        <div class="col-12 text-center">-->
-<!--          <h2 class="section-title text-white mb-5">Testimonials</h2>-->
-<!--        </div>-->
-<!--        <div class="col-lg-10 mx-auto testimonial-slider">-->
-<!--          {{ range .Site.Data.homepage.testimonial.item }}-->
-<!--          &lt;!&ndash; slider-item &ndash;&gt;-->
-<!--          <div class="text-center testimonial-content">-->
-<!--            <i class="ti-quote-right text-white icon mb-4 d-inline-block"></i>-->
-<!--            <p class="text-white mb-4">{{.content | markdownify}}</p>-->
-<!--            <img class="img-fluid rounded-circle mb-4 d-inline-block" src="{{.image | absURL }}" alt="client-image">-->
-<!--            <h4 class="text-white">{{.name }}</h4>-->
-<!--            <h6 class="text-light mb-4">{{ .designation }}</h6>-->
-<!--          </div>-->
-<!--          {{ end }}-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
-<!--&lt;!&ndash;    &lt;!&ndash; bg shapes &ndash;&gt;&ndash;&gt;-->
-<!--&lt;!&ndash;    <img src="{{`images/backgrounds/map.png` | relURL }}" alt="map" class="img-fluid bg-map">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img src="{{`images/illustrations/dots-group-v.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-1">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img src="{{`images/illustrations/leaf-orange.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-2">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img src="{{`images/illustrations/dots-group-sm.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-3">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img src="{{`images/illustrations/leaf-pink-round.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-4">&ndash;&gt;-->
-<!--&lt;!&ndash;    <img src="{{`images/illustrations/leaf-cyan.svg` | relURL }}" alt="bg-shape" class="img-fluid bg-shape-5">&ndash;&gt;-->
-<!--  </section>-->
-<!--  &lt;!&ndash; /testimonial &ndash;&gt;-->
-<!--  {{ end }}-->
-
 
   {{ if .Site.Data.homepage.clientSlider.enable }}
   <!-- client logo slider -->
@@ -323,6 +324,19 @@
   <!-- /client logo slider -->
   {{ end }}
 
+
+<!--
+
+  ____    _
+ |  _ \  | |
+ | |_) | | |   ___     __ _
+ |  _ <  | |  / _ \   / _` |
+ | |_) | | | | (_) | | (_| |
+ |____/  |_|  \___/   \__, |
+                       __/ |
+                      |___/
+
+-->
   {{ if .Site.Data.homepage.blog.enable }}
   <!-- blog -->
   <section class="section">

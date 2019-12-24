@@ -1,265 +1,323 @@
 # banner
+
+#____
+#|  _ \
+#| |_) |   __ _   _ __    _ __     ___   _ __
+#|  _ <   / _` | | '_ \  | '_ \   / _ \ | '__|
+#| |_) | | (_| | | | | | | | | | |  __/ | |
+#|____/   \__,_| |_| |_| |_| |_|  \___| |_|
 banner:
-  title : "Hi! I’m Sam"
-  socialLinks:
-    - icon : "ti-facebook"
-      URL : "#"
-      
-    - icon : "ti-instagram"
-      URL : "#"
-      
-    - icon : "ti-dribbble"
-      URL : "#"
-      
-    - icon : "ti-twitter"
-      URL : "#"
+    title : "Hi! I’m Sam"
 
-# about
+
+#      _____                  _           _     _        _           _
+#     / ____|                (_)         | |   | |      (_)         | |
+#    | (___     ___     ___   _    __ _  | |   | |       _   _ __   | | __  ___
+#     \___ \   / _ \   / __| | |  / _` | | |   | |      | | | '_ \  | |/ / / __|
+#     ____) | | (_) | | (__  | | | (_| | | |   | |____  | | | | | | |   <  \__ \
+#    |_____/   \___/   \___| |_|  \__,_| |_|   |______| |_| |_| |_| |_|\_\ |___/
+
+
+social:
+    twitter: ""
+    linkedin: "sam-robbins-gb"
+    github: "samrobbins85"
+    gitlab: ""
+    facebook: ""
+    instagram: ""
+
+#                _                       _
+#        /\     | |                     | |
+#       /  \    | |__     ___    _   _  | |_
+#      / /\ \   | '_ \   / _ \  | | | | | __|
+#     / ____ \  | |_) | | (_) | | |_| | | |_
+#    /_/    \_\ |_.__/   \___/   \__,_|  \__|
+
+
+
 about:
-  enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-  button:
-    btnText : "know more"
-    URL : "/about"
+    enable : true
+    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    button:
+        btnText : "know more"
+        URL : "/about"
 
-# skill
+#      _____   _      _   _   _
+#     / ____| | |    (_) | | | |
+#    | (___   | | __  _  | | | |  ___
+#     \___ \  | |/ / | | | | | | / __|
+#     ____) | |   <  | | | | | | \__ \
+#    |_____/  |_|\_\ |_| |_| |_| |___/
+
+
 skill:
-  enable : true
-  skillbar:
-    - title : "Web Design"
-      progress : "90%"
-      color : "#fdb157"
-      
-    - title : "Logo Design"
-      progress : "60%"
-      color : "#9473e6"
-      
-    - title : "After Effects"
-      progress : "80%"
-      color : "#bdecf6"
-      
-    - title : "Web App"
-      progress : "70%"
-      color : "#ffbcaa"
-  item:
-    - logo: "https://cdn.svgporn.com/logos/javascript.svg"
-      title: "JavaScript"
-      description: "I have used JavaScript both in personal projects and in coursework. In coursework I used both the p5 library and node.js to make websites, and achieved a 2:1 for my work. \n \nI also used JavaScript in the project for DurHack 2019, and was placed as a finalist."
+    enable : true
+    skillbar:
+        - title : "Web Design"
+          progress : "90%"
+          color : "#fdb157"
 
-    - logo: "https://cdn.svgporn.com/logos/python.svg"
-      title: "Python"
-      description: "
-      * Some\n
+        - title : "Logo Design"
+          progress : "60%"
+          color : "#9473e6"
+
+        - title : "After Effects"
+          progress : "80%"
+          color : "#bdecf6"
+
+        - title : "Web App"
+          progress : "70%"
+          color : "#ffbcaa"
+    item:
+        - logo: "https://cdn.svgporn.com/logos/javascript.svg"
+          title: "JavaScript"
+          description: "
+      <h4>
+       <a href='https://github.com/samrobbins85/university-coursework/tree/master/Year%201/Programming/p5'>
+         p5.js Coursework
+       </a>
+       </h4>
+
+      In this coursework we were tasked with taking a sketch from <a href='https://www.openprocessing.org'> Open Processing</a> and to adapt it into a reusable component. We also had to build an example page and write documentation
+      <br>
+      <br>
+       <h4>
+       <a href='https://github.com/samrobbins85/university-coursework/tree/master/Year%201/Programming/nodeJS'>
+         Rest API Coursework
+       </a>
+       </h4>
+      In this coursework we were tasked with creating a single page app with a server that would provide JSON via a REST API. As an extension we were to include an external API.
+      "
+
+        - logo: "https://cdn.svgporn.com/logos/python.svg"
+          title: "Python"
+          description: "
+      * [I'm an inline-style link](https://www.google.com)\n
       * Random\n
       * Markdown "
 
-    - logo: "https://cdn.svgporn.com/logos/php.svg"
-      title: "PHP"
-      description: "I have used PHP in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/php.svg"
+          title: "PHP"
+          description: "I have used PHP in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/java.svg"
-      title: "Java"
-      description: "I have used Java in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/java.svg"
+          title: "Java"
+          description: "I have used Java in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/c.svg"
-      title: "C"
-      description: "I have used C in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/c.svg"
+          title: "C"
+          description: "I have used C in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/haskell-icon.svg"
-      title: "Haskell"
-      description: "I have used Haskell in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/haskell-icon.svg"
+          title: "Haskell"
+          description: "I have used Haskell in a range of projects"
 
-    - logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/800px-LaTeX_logo.svg.png"
-      title: "LaTeX"
-      description: "I have used LaTeX in a range of projects"
+        - logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/800px-LaTeX_logo.svg.png"
+          title: "LaTeX"
+          description: "I have used LaTeX in a range of projects"
 
-    - logo: "https://camo.githubusercontent.com/7c9b27101ba491969d016f2f2427c3e066f7bd0b/68747470733a2f2f63646e2e7261776769742e636f6d2f6f64622f6f6666696369616c2d626173682d6c6f676f2f6d61737465722f6173736574732f4c6f676f732f4964656e746974792f504e472f424153485f6c6f676f2d7472616e73706172656e742d62672d636f6c6f722e706e67"
-      title: "Bash"
-      description: "I have used Bash in a range of projects"
+        - logo: "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg"
+          title: "Bash"
+          description: "I have used Bash in a range of projects"
 
-    - logo: "https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png"
-      title: "PowerShell"
-      description: "I have used PowerShell in a range of projects"
+        - logo: "https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png"
+          title: "PowerShell"
+          description: "I have used PowerShell in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/nodejs-icon.svg"
-      title: "Node.js"
-      description: "I have used Node.js in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/nodejs-icon.svg"
+          title: "Node.js"
+          description: "I have used Node.js in a range of projects"
 
-    - logo: "https://www.wireshark.org/assets/images/sflogo.png"
-      title: "Wireshark"
-      description: "I have used Wireshark in a range of projects"
+        - logo: "https://www.wireshark.org/assets/images/sflogo.png"
+          title: "Wireshark"
+          description: "I have used Wireshark in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/git-icon.svg"
-      title: "Git"
-      description: "I have used Git in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/git-icon.svg"
+          title: "Git"
+          description: "I have used Git in a range of projects"
 
-    - logo: "https://pbs.twimg.com/profile_images/580131056629735424/2ENTk2K2_400x400.png"
-      title: "Metasploit"
-      description: "I have used Metasploit in a range of projects"
+        - logo: "https://pbs.twimg.com/profile_images/580131056629735424/2ENTk2K2_400x400.png"
+          title: "Metasploit"
+          description: "I have used Metasploit in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/twilio.svg"
-      title: "Twilio"
+        - logo: "https://cdn.svgporn.com/logos/twilio.svg"
+          title: "Twilio"
 
-    - logo: "https://cdn.svgporn.com/logos/bootstrap.svg"
-      title: "Boostrap"
-      description: "I have used Bootstrap in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/bootstrap.svg"
+          title: "Boostrap"
+          description: "I have used Bootstrap in a range of projects"
 
-    - logo: "https://user-images.githubusercontent.com/98330/63813335-20cd4b80-c8e2-11e9-9c04-e4dbf7285aa1.png"
-      title: "NumPy"
-      description: "I have used NumPy in a range of projects"
+        - logo: "https://user-images.githubusercontent.com/98330/63813335-20cd4b80-c8e2-11e9-9c04-e4dbf7285aa1.png"
+          title: "NumPy"
+          description: "I have used NumPy in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/react.svg"
-      title: "React"
-      description: "I have used React in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/react.svg"
+          title: "React"
+          description: "I have used React in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/arduino.svg"
-      title: "Arduino"
-      description: "I have used Arduino in a range of projects"
+        - logo: "https://cdn.worldvectorlogo.com/logos/arduino-1.svg"
+          title: "Arduino"
+          description: "I have used Arduino in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/raspberry-pi.svg"
-      title: "Raspberry Pi"
-      description: "I have used Raspberry Pi in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/raspberry-pi.svg"
+          title: "Raspberry Pi"
+          description: "I have used Raspberry Pi in a range of projects"
 
-    - logo: "https://cdn.svgporn.com/logos/linux-tux.svg"
-      title: "Linux"
-      description: "I have used Linux in a range of projects"
+        - logo: "https://cdn.svgporn.com/logos/linux-tux.svg"
+          title: "Linux"
+          description: "I have used Linux in a range of projects"
 
-    - logo: "https://pbs.twimg.com/profile_images/1146106967477379073/J3fzYcnz_400x400.png"
-      title: "MongoDB"
-      description: "I have used MongoDB in a range of projects"
+        - logo: "https://pbs.twimg.com/profile_images/1146106967477379073/J3fzYcnz_400x400.png"
+          title: "MongoDB"
+          description: "I have used MongoDB in a range of projects"
 
-    - logo: "https://unicons.iconscout.com/release/v2.0.1/svg/line/database.svg"
-      title: "SQL"
-      description: "I have used SQL in a range of projects"
+        - logo: "https://unicons.iconscout.com/release/v2.0.1/svg/line/database.svg"
+          title: "SQL"
+          description: "I have used SQL in a range of projects"
 
 # experience
+
+
+
+#     ______                                _
+#    |  ____|                              (_)
+#    | |__    __  __  _ __     ___   _ __   _    ___   _ __     ___    ___
+#    |  __|   \ \/ / | '_ \   / _ \ | '__| | |  / _ \ | '_ \   / __|  / _ \
+#    | |____   >  <  | |_) | |  __/ | |    | | |  __/ | | | | | (__  |  __/
+#    |______| /_/\_\ | .__/   \___| |_|    |_|  \___| |_| |_|  \___|  \___|
+#                    | |
+#                    |_|
+
+
+
 experience:
-  enable : true
-  item: 
-    - logo : "https://cdn.svgporn.com/logos/google-icon.svg"
-      title : "init.g"
-      company : "Google"
-      duration : "Nov 2019"
-      
-    - logo : "https://pmt.physicsandmathstutor.com/wp-content/uploads/favicon.png"
-      title : "Web Developer"
-      company : "Physics and Maths Tutor"
-      duration : "Oct 2019 - Present"
-      
-    - logo : "https://upload.wikimedia.org/wikipedia/en/9/94/Tyne_and_Wear_Passenger_Transport_Executive_%28Nexus_logo%29.png"
-      title : "Work Experience"
-      company : "Nexus"
-      duration : "Jul 2017"
+    enable : true
+    item:
+        - logo : "https://cdn.svgporn.com/logos/google-icon.svg"
+          title : "init.g"
+          company : "Google"
+          duration : "Nov 2019"
 
-    - logo: "https://nustem.uk/wp/wp-content/uploads/2017/02/logo-banner.png"
-      title: "Work Experience"
-      company: "Nexus"
-      duration: "Mar 2015 - Apr 2015"
+        - logo : "https://pmt.physicsandmathstutor.com/wp-content/uploads/favicon.png"
+          title : "Web Developer"
+          company : "Physics and Maths Tutor"
+          duration : "Oct 2019 - Present"
 
-# education
+        - logo : "https://upload.wikimedia.org/wikipedia/en/9/94/Tyne_and_Wear_Passenger_Transport_Executive_%28Nexus_logo%29.png"
+          title : "Work Experience"
+          company : "Nexus"
+          duration : "Jul 2017"
+
+        - logo: "https://nustem.uk/wp/wp-content/uploads/2017/02/logo-banner.png"
+          title: "Work Experience"
+          company: "nustem"
+          duration: "Mar 2015 - Apr 2015"
+
+
+#     ______       _                          _     _
+#    |  ____|     | |                        | |   (_)
+#    | |__      __| |  _   _    ___    __ _  | |_   _    ___    _ __
+#    |  __|    / _` | | | | |  / __|  / _` | | __| | |  / _ \  | '_ \
+#    | |____  | (_| | | |_| | | (__  | (_| | | |_  | | | (_) | | | | |
+#    |______|  \__,_|  \__,_|  \___|  \__,_|  \__| |_|  \___/  |_| |_|
+
+
 education:
-  enable : true
-  item:
-    - title : "BSc Computer Science"
-      year : "2018 - Present"
-      academy : "Durham University"
-      
-    - title : "GCSEs and A Levels"
-      year : "2013-2018"
-      academy : "The King Edward VI School"
+    enable : true
+    item:
+        - title : "BSc Computer Science"
+          year : "2018 - Present"
+          academy : "Durham University"
+
+        - title : "GCSEs and A Levels"
+          year : "2013-2018"
+          academy : "The King Edward VI School"
+
+
 
 
 # service
 service:
-  enable : true
-  item : 
-    - title : "UI Design"
-      icon : "ti-palette"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
+    enable : true
+    item :
+        - title : "UI Design"
+          icon : "ti-palette"
+          content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          highlighted : false
 
-    - title : "UX Design"
-      icon : "ti-vector"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : true
+        - title : "UX Design"
+          icon : "ti-vector"
+          content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          highlighted : true
 
-    - title : "Interaction Design"
-      icon : "ti-panel"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-      highlighted : false
+        - title : "Interaction Design"
+          icon : "ti-panel"
+          content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          highlighted : false
 
-# portfolio
+
+#     _____                   _      __           _   _
+#    |  __ \                 | |    / _|         | | (_)
+#    | |__) |   ___    _ __  | |_  | |_    ___   | |  _    ___
+#    |  ___/   / _ \  | '__| | __| |  _|  / _ \  | | | |  / _ \
+#    | |      | (_) | | |    | |_  | |   | (_) | | | | | | (_) |
+#    |_|       \___/  |_|     \__| |_|    \___/  |_| |_|  \___/
+
+
+
 portfolio:
-  enable : true
-  item:
-    - image : "images/portfolio/item-1.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-2.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-3.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-4.png"
-      projectURL : "#"
-      
-    - image : "images/portfolio/item-5.png"
-      projectURL : "#"
+    enable : true
+    item:
+        - image : "images/portfolio/item-1.png"
+          projectURL : "#"
 
-# testimonial
-testimonial:
-  enable : true
-  item:
-    - name : "Jesica Gomez"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      
-    - name : "Shirley Scot"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-      
-    - name : "Jessica Julie"
-      image : "images/testimonial/client-1.png"
-      designation : "CEO, Funder"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+        - image : "images/portfolio/item-2.png"
+          projectURL : "#"
+
+        - image : "images/portfolio/item-3.png"
+          projectURL : "#"
+
+        - image : "images/portfolio/item-4.png"
+          projectURL : "#"
+
+        - image : "images/portfolio/item-5.png"
+          projectURL : "#"
+
 
 # client slider
 clientSlider:
-  enable : true
-  item:
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-1.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-2.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-3.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-4.png"
-      URL : "#"
-      
-    - logo : "images/clients-logo/client-logo-5.png"
-      URL : "#"
+    enable : true
+    item:
+        - logo : "images/clients-logo/client-logo-1.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-2.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-3.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-4.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-5.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-1.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-2.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-3.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-4.png"
+          URL : "#"
+
+        - logo : "images/clients-logo/client-logo-5.png"
+          URL : "#"
 
 # blog
 blog:
-  enable : true
+    enable : true
