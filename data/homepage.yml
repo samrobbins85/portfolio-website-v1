@@ -128,7 +128,7 @@ skill:
           title: "Node.js"
           description: "I have used Node.js in a range of projects"
 
-        - logo: "https://www.wireshark.org/assets/images/sflogo.png"
+        - logo: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg"
           title: "Wireshark"
           description: "I have used Wireshark in a range of projects"
 
