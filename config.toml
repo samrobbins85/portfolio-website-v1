@@ -1,4 +1,4 @@
-baseURL = "https://kross.netlify.com"
+baseURL = "https://beta.samrobbins.uk"
 languageCode = "en-us"
 title = "Sam Robbins"
 theme = "kross-hugo-portfolio-template"
