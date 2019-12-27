@@ -268,19 +268,19 @@ service:
 portfolio:
     enable : true
     item:
-        - image : "images/portfolio/item-1.png"
+        - image : "images/portfolio/item-1.webp"
           projectURL : "#"
 
-        - image : "images/portfolio/item-2.png"
+        - image : "images/portfolio/item-2.webp"
           projectURL : "#"
 
-        - image : "images/portfolio/item-3.png"
+        - image : "images/portfolio/item-3.webp"
           projectURL : "#"
 
-        - image : "images/portfolio/item-4.png"
+        - image : "images/portfolio/item-4.webp"
           projectURL : "#"
 
-        - image : "images/portfolio/item-5.png"
+        - image : "images/portfolio/item-5.webp"
           projectURL : "#"
 
 
