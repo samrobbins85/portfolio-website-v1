@@ -152,7 +152,7 @@
         <div class="row justify-content-center">
           {{ range .Site.Data.homepage.skill.item }}
           <div class="imagemargin col-lg-2 col-md-4 text-center">
-            <img class="lazyload" src="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
+            <img class="contain lazy" src="" data-src="{{.logo}}" data-srcset="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
             <h4>{{.title }}</h4>
           </div>
           {{ end }}
@@ -365,5 +365,32 @@
   <!-- /blog -->
   {{ end }}
 
+<script>
+
+  document.addEventListener("DOMContentLoaded", function() {
+    var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+
+    if ("IntersectionObserver" in window) {
+      let lazyImageObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            let lazyImage = entry.target;
+            lazyImage.src = lazyImage.dataset.src;
+            lazyImage.srcset = lazyImage.dataset.srcset;
+            lazyImage.classList.remove("lazy");
+            lazyImageObserver.unobserve(lazyImage);
+          }
+        });
+      });
+
+      lazyImages.forEach(function(lazyImage) {
+        lazyImageObserver.observe(lazyImage);
+      });
+    } else {
+      // Possibly fall back to a more compatible method here
+    }
+  });
+
+</script>
 
 {{ end }}
