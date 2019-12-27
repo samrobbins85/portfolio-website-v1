@@ -152,7 +152,7 @@
         <div class="row justify-content-center">
           {{ range .Site.Data.homepage.skill.item }}
           <div class="imagemargin col-lg-2 col-md-4 text-center">
-            <img class="contain lazyload" src="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
+            <img class="lazyload" src="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
             <h4>{{.title }}</h4>
           </div>
           {{ end }}
