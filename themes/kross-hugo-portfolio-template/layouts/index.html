@@ -152,7 +152,7 @@
         <div class="row justify-content-center">
           {{ range .Site.Data.homepage.skill.item }}
           <div class="imagemargin col-lg-2 col-md-4 text-center">
-            <img class="contain lazy" src="" data-src="{{.logo}}" data-srcset="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
+            <img class="contain lazy" src="" data-src="{{.logo}}" style="width: 80px;height: 80px" alt="{{.company}}" data-toggle="modal" data-target="#{{ replace (replace .title " " "_") "." "_" }}">
             <h4>{{.title }}</h4>
           </div>
           {{ end }}
@@ -187,7 +187,7 @@
         </div>
         {{ range .Site.Data.homepage.experience.item }}
         <div class="col-lg-3 col-md-4 text-center">
-          <img class="contain" src="{{.logo}}" style="width: 110px;height: 130px" alt="{{.company}}">
+          <img class="contain"  src="" data-src="{{.logo}}" style="width: 110px;height: 130px" alt="{{.company}}">
           <p class="mb-0">{{.duration}}</p>
           <h4>{{.title }}</h4>
           <h6 class="text-light">{{.company }}</h6>
@@ -238,7 +238,7 @@
       </div>
     </div>
     <!-- bg image -->
-    <img class="img-fluid edu-bg-image w-100" src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
+    <img class="img-fluid edu-bg-image w-100 lazy" src="" data-src="{{`images/backgrounds/education-bg.png`|relURL}}" alt="bg-image">
   </section>
   <!-- /education -->
   {{ end }}
@@ -298,7 +298,7 @@
         {{ range .Site.Data.homepage.portfolio.item }}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
-            <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="" data-src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" href="{{ .projectURL }}">view project</a>
@@ -349,7 +349,7 @@
         {{ range first 3 .Site.RegularPages }}
         <div class="col-lg-4 col-sm-6 mb-4">
           <article class="card shadow">
-            <img class="rounded card-img-top" src="{{.Params.Image | absURL}}" alt="post-thumb">
+            <img class="rounded card-img-top"  src ="" data-src="{{.Params.Image | absURL}}" alt="post-thumb">
             <div class="card-body">
               <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
               </h4>
@@ -376,7 +376,7 @@
           if (entry.isIntersecting) {
             let lazyImage = entry.target;
             lazyImage.src = lazyImage.dataset.src;
-            lazyImage.srcset = lazyImage.dataset.srcset;
+            lazyImage.srcset = lazyImage.dataset.src;
             lazyImage.classList.remove("lazy");
             lazyImageObserver.unobserve(lazyImage);
           }
