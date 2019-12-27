@@ -72,7 +72,7 @@
       <div class="row">
         <div class="col-lg-10 mx-auto text-center">
           {{ with .Site.Data.homepage.about }}
-          <p class="font-secondary lead text-dark">{{.content | markdownify}}</p>
+          <p class="lead text-dark">{{.content | markdownify}}</p>
           {{ with .button }}
           <a href="{{ .URL | absURL }}" class="btn btn-transparent">{{.btnText}}</a>
           {{ end }}
