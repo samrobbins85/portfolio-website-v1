@@ -17,7 +17,7 @@ summaryLength = "10"
 
   # JS Plugins
   [[params.plugins.js]]
-  URL = "plugins/jQuery/jquery.min.js"
+  URL = "https://code.jquery.com/jquery-3.4.1.min.js"
   [[params.plugins.js]]
   URL = "plugins/bootstrap/bootstrap.min.js"
   [[params.plugins.js]]
