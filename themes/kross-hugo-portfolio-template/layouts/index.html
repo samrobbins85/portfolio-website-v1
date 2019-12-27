@@ -1,6 +1,5 @@
 {{ define "main" }}
-<script src="https://kit.fontawesome.com/f54a497c0c.js" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js"></script>
+<!--<script src="https://kit.fontawesome.com/f54a497c0c.js" crossorigin="anonymous"></script>-->
 <!--
   _    _
  | |  | |                             /\
@@ -187,7 +186,7 @@
         </div>
         {{ range .Site.Data.homepage.experience.item }}
         <div class="col-lg-3 col-md-4 text-center">
-          <img class="contain"  src="" data-src="{{.logo}}" style="width: 110px;height: 130px" alt="{{.company}}">
+          <img class="contain lazy" src="" data-src="{{.logo}}" style="width: 110px;height: 130px" alt="{{.company}}">
           <p class="mb-0">{{.duration}}</p>
           <h4>{{.title }}</h4>
           <h6 class="text-light">{{.company }}</h6>
@@ -298,7 +297,7 @@
         {{ range .Site.Data.homepage.portfolio.item }}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
-            <img src="" data-src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <img src="{{.image | absURL }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
                 <a class="btn btn-light btn-sm" href="{{ .projectURL }}">view project</a>
@@ -349,7 +348,7 @@
         {{ range first 3 .Site.RegularPages }}
         <div class="col-lg-4 col-sm-6 mb-4">
           <article class="card shadow">
-            <img class="rounded card-img-top"  src ="" data-src="{{.Params.Image | absURL}}" alt="post-thumb">
+            <img class="rounded card-img-top lazy"  src ="" data-src="{{.Params.Image | absURL}}" alt="post-thumb">
             <div class="card-body">
               <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
               </h4>

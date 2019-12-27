@@ -12,8 +12,8 @@ summaryLength = "10"
   URL = "plugins/bootstrap/bootstrap.min.css"
   [[params.plugins.css]]
   URL = "plugins/slick/slick.css"
-  [[params.plugins.css]]
-  URL = "plugins/themify-icons/themify-icons.css"
+#  [[params.plugins.css]]
+#  URL = "plugins/themify-icons/themify-icons.css"
 
   # JS Plugins
   [[params.plugins.js]]
