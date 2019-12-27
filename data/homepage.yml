@@ -228,10 +228,12 @@ education:
         - title : "BSc Computer Science"
           year : "2018 - Present"
           academy : "Durham University"
+          image: "https://yt3.ggpht.com/a/AGF-l7_eEtIqo6-svwrE-jKsA-Q8Q7gjf1lJFGjfMg=s900-c-k-c0xffffffff-no-rj-mo"
 
         - title : "GCSEs and A Levels"
           year : "2013-2018"
           academy : "The King Edward VI School"
+          image: "https://smartfile.s3.amazonaws.com/3b0990ed0b31bf1ee89b63993d69a4f8/uploads/2017/05/kevi_logo.png"
 
 
 

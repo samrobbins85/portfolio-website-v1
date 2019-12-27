@@ -13,7 +13,7 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-11 mx-auto">
-          <h1 class="text-black font-tertiary">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
+          <h1 class="text-black">{{ .Site.Data.homepage.banner.title | safeHTML }}</h1>
         </div>
       </div>
     </div>
@@ -224,7 +224,8 @@
         <div class="col-lg-6 col-md-6 mb-80">
           <div class="d-flex">
             <div class="mr-lg-5 mr-3">
-              <i class="ti-medall icon icon-light icon-bg bg-white shadow rounded-circle d-block"></i>
+
+              <i class="icon icon-light icon-bg bg-white shadow rounded-circle d-block"><img class="contain lazy" src="" data-src="{{.image}}" style="width: 60px;height: 60px"></i>
             </div>
             <div>
               <p class="text-dark mb-1">{{.year}}</p>

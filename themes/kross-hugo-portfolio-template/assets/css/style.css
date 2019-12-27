@@ -227,7 +227,7 @@ a:hover {
 
 .section-title {
   margin-bottom: 80px;
-  font-family: bwnistaint-xbd
+  /*font-family: bwnistaint-xbd*/
 }
 
 .bg-cover {
@@ -340,7 +340,7 @@ a:hover {
 }
 
 .font-tertiary {
-  font-family: bwnistaint-xbd !important
+  font-family: bwn !important
 }
 
 .shadow {
@@ -445,10 +445,11 @@ textarea.form-control {
 }
 
 .navbar .nav-item .nav-link {
-  font-family: bwnistaint-xbd;
-  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  /*text-transform: uppercase;*/
   padding: 15px;
   color: black;
+  font-size:130% ;
 }
 
 .navbar .nav-item.active {
