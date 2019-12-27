@@ -9,9 +9,9 @@ summaryLength = "10"
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "plugins/bootstrap/bootstrap.min.css"
+  URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   [[params.plugins.css]]
-  URL = "plugins/slick/slick.css"
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
 #  [[params.plugins.css]]
 #  URL = "plugins/themify-icons/themify-icons.css"
 
@@ -19,11 +19,11 @@ summaryLength = "10"
   [[params.plugins.js]]
   URL = "https://code.jquery.com/jquery-3.4.1.min.js"
   [[params.plugins.js]]
-  URL = "plugins/bootstrap/bootstrap.min.js"
+  URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
   [[params.plugins.js]]
-  URL = "plugins/slick/slick.min.js"
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
   [[params.plugins.js]]
-  URL = "plugins/shuffle/shuffle.min.js"
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.3/shuffle.min.js"
 
 
 # navigation
