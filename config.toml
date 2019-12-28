@@ -12,8 +12,6 @@ summaryLength = "10"
   URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   [[params.plugins.css]]
   URL = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-#  [[params.plugins.css]]
-#  URL = "plugins/themify-icons/themify-icons.css"
 
   # JS Plugins
   [[params.plugins.js]]
