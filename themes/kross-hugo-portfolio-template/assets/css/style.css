@@ -17,12 +17,12 @@ body {
   font-family: roboto, sans-serif;
   -webkit-font-smoothing: antialiased;
   font-size: 15px;
-  color: #4c4c4c
+  color: #454545
 }
 
 p {
   font-weight: 400;
-  color: #4c4c4c;
+  color: #454545;
   font-size: 15px;
   line-height: 1.8;
   font-family: roboto, sans-serif
@@ -912,11 +912,11 @@ ul.icons li a:before {
 
 ul.icons li a:before {
     color: #ffffff;
-    text-shadow: 1.25px 0px 0px grey, -1.25px 0px 0px grey, 0px 1.25px 0px grey, 0px -1.25px 0px grey;
+    text-shadow: 1.25px 0px 0px lightgray, -1.25px 0px 0px lightgray, 0px 1.25px 0px lightgray, 0px -1.25px 0px lightgray;
 }
 
 ul.icons li a:hover:before {
-    text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+    text-shadow: 1.25px 0px 0px #454545, -1.25px 0px 0px #454545, 0px 1.25px 0px #454545, 0px -1.25px 0px #454545;
 }
 
 ul.icons li a:before {
@@ -932,7 +932,7 @@ ul.icons li a:before {
 }
 
 ul.icons li a:hover {
-    border-color: #ff7496;
+    border-color: #454545;
 }
 
 @media screen and (max-width: 480px) {

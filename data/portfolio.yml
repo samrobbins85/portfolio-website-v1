@@ -11,51 +11,51 @@ list:
 
 # portfolio item
 item:
-  - image : "images/portfolio/item-1.png"
+  - image : "images/portfolio/item-1.webp"
     projectURL : "#"
     projectType:
       - type: "design"
       - type: "illustration"
       
-  - image : "images/portfolio/item-2.png"
+  - image : "images/portfolio/item-2.webp"
     projectURL : "#"
     projectType:
       - type: "branding"
       
-  - image : "images/portfolio/item-3.png"
+  - image : "images/portfolio/item-3.webp"
     projectURL : "#"
     projectType:
       - type: "illustration"
       
-  - image : "images/portfolio/item-6.png"
+  - image : "images/portfolio/item-6.webp"
     projectURL : "#"
     projectType:
       - type: "design"
       - type: "branding"
       
-  - image : "images/portfolio/item-8.png"
+  - image : "images/portfolio/item-8.webp"
     projectURL : "#"
     projectType:
       - type: "illustration"
       
-  - image : "images/portfolio/item-5.png"
+  - image : "images/portfolio/item-5.webp"
     projectURL : "#"
     projectType:
       - type: "design"
       
-  - image : "images/portfolio/item-1.png"
+  - image : "images/portfolio/item-1.webp"
     projectURL : "#"
     projectType:
       - type: "branding"
       
-  - image : "images/portfolio/item-3.png"
+  - image : "images/portfolio/item-3.webp"
     projectURL : "#"
     projectType:
       - type: "design"
       - type: "illustration"
       - type: "branding"
       
-  - image : "images/portfolio/item-7.png"
+  - image : "images/portfolio/item-7.webp"
     projectURL : "#"
     projectType:
       - type: "illustration"
