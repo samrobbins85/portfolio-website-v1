@@ -88,29 +88,40 @@ h6,
 
 .btn {
   font-size: 22px;
-  font-family: playfair display, serif;
-  text-transform: capitalize;
+  font-family: Roboto, sans-serif;
+  /*text-transform: capitalize;*/
   padding: 16px 44px;
-  border-radius: 5px;
+  border-radius: 0 !important;
   font-weight: 600;
   border: 0;
   position: relative;
   z-index: 1;
-  transition: .2s ease
+  transition: .2s ease;
+  outline-style: solid !important;
+  outline-color: black !important;
+  color: black;
 }
 
 .btn:focus {
-  outline: 0;
-  box-shadow: none !important
+  box-shadow: white !important;
+  background: black !important;
+  color: black;
+  outline-style: solid !important;
+  outline-color: black !important;
 }
 
 .btn:active {
-  box-shadow: none
+  box-shadow: none;
+  background: black !important;
+  color: white !important;
+  outline-style: solid !important;
+  outline-color: black !important;
 }
 
 .btn-sm {
   font-size: 15px;
-  padding: 10px 30px
+  padding: 10px 30px;
+  color: black;
 }
 
 .btn-xs {
@@ -119,22 +130,27 @@ h6,
 }
 
 .btn-primary {
-  background: #41228e;
-  color: #fff
+  background: white;
+  color: black !important;
 }
 
 .btn-primary:active {
-  background: white !important
+  background: white !important;
+  color: black;
 }
 
 .btn-primary:hover {
-  background: white;
+  background: black;
+  color: white !important;
 }
 
 .btn-primary.focus,
 .btn-primary.active {
-  background: #542cb7 !important;
-  box-shadow: none !important
+  box-shadow: none !important;
+  background: black !important;
+  color: white !important;
+  /*outline-style: solid !important;*/
+  /*outline-color: black !important;*/
 }
 
 .btn-transparent {
@@ -155,7 +171,7 @@ body {
 
 ::selection {
   background: black;
-  color: #fff
+  color: black;
 }
 
 .preloader {
@@ -750,7 +766,7 @@ blockquote {
 }
 
 .page-title-alt {
-  padding: 350px 0 70px
+  padding: 150px 0 70px
 }
 
 .border-thick {
@@ -772,95 +788,14 @@ blockquote {
   z-index: 1
 }
 
-.page-title-alt .bg-shape-1 {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%
-}
-
-.page-title-alt .bg-shape-2 {
-  position: absolute;
-  left: 70px;
-  top: 100px
-}
-
-.page-title-alt .bg-shape-3 {
-  position: absolute;
-  left: 30%;
-  top: 50px;
-  transform: rotate(180deg)
-}
-
-.page-title-alt .bg-shape-4 {
-  position: absolute;
-  left: 100px;
-  bottom: 100px
-}
-
-.page-title-alt .bg-shape-5 {
-  position: absolute;
-  left: 40%;
-  bottom: -25px
-}
-
-.page-title-alt .bg-shape-6 {
-  position: absolute;
-  bottom: 100px;
-  right: -100px
-}
 
 .page-title {
-  padding: 250px 0 150px
+  padding: 150px 0 50px
 }
 
 .page-title .container {
   position: relative;
   z-index: 1
-}
-
-.page-title .bg-shape-1 {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%
-}
-
-.page-title .bg-shape-2 {
-  position: absolute;
-  left: -20px;
-  top: -10px
-}
-
-.page-title .bg-shape-3 {
-  position: absolute;
-  left: 10%;
-  top: 100px
-}
-
-.page-title .bg-shape-4 {
-  position: absolute;
-  left: 50%;
-  top: -20px
-}
-
-.page-title .bg-shape-5 {
-  position: absolute;
-  left: 90px;
-  bottom: -50px;
-  transform: rotate(180deg)
-}
-
-.page-title .bg-shape-6 {
-  position: absolute;
-  right: 20%;
-  bottom: -20px
-}
-
-.page-title .bg-shape-7 {
-  position: absolute;
-  right: -220px;
-  bottom: -100px
 }
 
 .filter-controls li {

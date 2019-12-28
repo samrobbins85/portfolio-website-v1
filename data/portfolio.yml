@@ -1,13 +1,13 @@
 # portfolio filter list
 list:
   - title : "UI/UX Design"
-    type : "design"
+    type : "Vim"
     
   - title : "BRANDING"
-    type : "branding"
+    type : "Development"
     
   - title : ILLUSTRATION"
-    type : "illustration"
+    type : "Hugo"
 
 # portfolio item
 item:
