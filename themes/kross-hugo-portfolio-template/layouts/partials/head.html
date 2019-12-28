@@ -12,12 +12,6 @@
   {{ "<!-- plugins -->" | safeHTML }}
   {{ range .Site.Params.plugins.css }}
   <link rel="stylesheet" href="{{ .URL | absURL }} ">
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-  <!-- slick slider -->
-  <link rel="stylesheet" href="plugins/slick/slick.css">
-  <!-- themefy-icon -->
-<!--  <link rel="stylesheet" href="plugins/themify-icons/themify-icons.css">-->
   {{ end }}
 
   {{ "<!-- Main Stylesheet -->" | safeHTML }}

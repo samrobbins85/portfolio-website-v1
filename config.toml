@@ -1,5 +1,5 @@
 baseURL = "https://beta.samrobbins.uk"
-languageCode = "en-us"
+languageCode = "en-gb"
 title = "Sam Robbins"
 theme = "kross-hugo-portfolio-template"
 summaryLength = "10"
