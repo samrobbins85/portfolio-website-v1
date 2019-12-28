@@ -100,6 +100,7 @@ h6,
   outline-style: solid !important;
   outline-color: black !important;
   color: black;
+  cursor: pointer !important;
 }
 
 .btn:focus {
