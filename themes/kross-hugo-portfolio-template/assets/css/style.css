@@ -502,7 +502,7 @@ textarea.form-control {
 }
 
 .navbar .nav-item.active {
-  font-weight: 700
+  font-weight: 700 !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
