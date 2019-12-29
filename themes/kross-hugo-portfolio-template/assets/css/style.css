@@ -86,10 +86,23 @@ h6,
   font-size: 14px
 }
 
+
 .btn {
   font-size: 22px;
+  font-family: playfair display, serif;
+  text-transform: capitalize;
+  padding: 16px 44px;
+  border-radius: 5px;
+  font-weight: 600;
+  border: 0;
+  position: relative;
+  z-index: 1;
+  transition: .2s ease
+}
+
+.portfolio {
+  font-size: 22px;
   font-family: Roboto, sans-serif;
-  /*text-transform: capitalize;*/
   padding: 16px 44px;
   border-radius: 0 !important;
   font-weight: 600;
@@ -99,30 +112,23 @@ h6,
   transition: .2s ease;
   outline-style: solid !important;
   outline-color: black !important;
-  color: black;
+  color: black !important;
   cursor: pointer !important;
+  background: white;
 }
 
 .btn:focus {
-  box-shadow: white !important;
-  background: black !important;
-  color: black;
-  outline-style: solid !important;
-  outline-color: black !important;
+  outline: 0;
+  box-shadow: none !important
 }
 
 .btn:active {
-  box-shadow: none;
-  background: black !important;
-  color: white !important;
-  outline-style: solid !important;
-  outline-color: black !important;
+  box-shadow: none
 }
 
 .btn-sm {
   font-size: 15px;
-  padding: 10px 30px;
-  color: black;
+  padding: 10px 30px
 }
 
 .btn-xs {
@@ -131,27 +137,22 @@ h6,
 }
 
 .btn-primary {
-  background: white;
-  color: black !important;
+  background: #41228e;
+  color: #fff
 }
 
 .btn-primary:active {
-  background: white !important;
-  color: black;
+  background: #542cb7
 }
 
 .btn-primary:hover {
-  background: black;
-  color: white !important;
+  background: #542cb7
 }
 
 .btn-primary.focus,
 .btn-primary.active {
-  box-shadow: none !important;
-  background: black !important;
-  color: white !important;
-  /*outline-style: solid !important;*/
-  /*outline-color: black !important;*/
+  background: #542cb7;
+  box-shadow: none !important
 }
 
 .btn-transparent {
@@ -163,6 +164,44 @@ h6,
 .btn-transparent:active,
 .btn-transparent:hover {
   color: #41228e
+}
+
+.btn:focus.portfolio {
+  box-shadow: white !important;
+  background: white !important;
+  color: black;
+  outline-style: solid !important;
+  outline-color: black !important;
+}
+
+.portfolio.btn:active {
+  box-shadow: none;
+  background: black !important;
+  color: white !important;
+  outline-style: solid !important;
+  outline-color: black !important;
+}
+
+.portfolio.btn-primary {
+  background: white;
+  color: black !important;
+}
+
+.portfolio.btn-primary:active {
+  background: white !important;
+  color: black;
+}
+
+.portfolio.btn-primary:hover {
+  background: black;
+  color: white !important;
+}
+
+.portfolio.btn-primary.focus,
+.btn-primary.active {
+  box-shadow: none !important;
+  background: black !important;
+  color: white !important;
 }
 
 body {
