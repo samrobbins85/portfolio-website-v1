@@ -8,9 +8,16 @@
 
     <div class="collapse navbar-collapse text-center" id="navigation">
       <ul class="navbar-nav ml-auto">
+        {{$url := .URL | relURL}}
+        {{if .IsHome}}
+        <li class="nav-item active">
+          <a class="nav-link"  href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
+        </li>
+        {{else}}
         <li class="nav-item">
           <a class="nav-link"  href="{{ .Site.BaseURL }}">{{ with .Site.Params.Home }} {{ . }} {{ end }}</a>
         </li>
+        {{end}}
         {{ range .Site.Menus.main }}
         {{ if .HasChildren }}
         <li class="nav-item dropdown">
