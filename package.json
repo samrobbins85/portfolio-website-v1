@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "hugo"
+    "build": "git submodule update —init && hugo"
   }
 }
  
