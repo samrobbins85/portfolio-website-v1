@@ -1,7 +1,7 @@
 baseURL = "https://beta.samrobbins.uk"
 languageCode = "en-gb"
 title = "Sam Robbins"
-theme = "kross-hugo-portfolio-template"
+theme = "hugo-developer-portfolio"
 summaryLength = "10"
 
 # Plugins
