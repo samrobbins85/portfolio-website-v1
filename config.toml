@@ -65,10 +65,10 @@ googleAnalitycsID = "Your ID"
 
   [params.contact]
   enable = true
-  formAction = "#" #contact form works with formspree.io
+  formAction = "https://formspree.io/mlegaggv" #contact form works with formspree.io
 
   [params.footer]
-  email = "steve.fruits@email.com"
-  phone = "+880 2544 658 256"
-  address = "125/A, CA Commercial Area, California, USA"
+  email = "samrobbinsgb@gmail.com"
+  phone = ""
+  address = "Durham, UK"
 
