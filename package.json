@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "git clone https://github.com/samrobbins85/new-portfolio-website.git themes/hugo-developer-portfolio && hugo"
+    "build": "git clone https://github.com/samrobbins85/hugo-developer-portfolio.git themes/hugo-developer-portfolio && hugo"
   }
 }
  
