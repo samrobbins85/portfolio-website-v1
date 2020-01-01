@@ -53,19 +53,19 @@ about:
 skill:
     enable : true
     skillbar:
-        - title : "Web Design"
+        - title : "Cyber Security"
           progress : "90%"
           color : "#fdb157"
 
-        - title : "Logo Design"
-          progress : "60%"
+        - title : "Web Dev"
+          progress : "70%"
           color : "#9473e6"
 
-        - title : "After Effects"
+        - title : "Linux"
           progress : "80%"
           color : "#bdecf6"
 
-        - title : "Web App"
+        - title : "Python"
           progress : "70%"
           color : "#ffbcaa"
     item:
