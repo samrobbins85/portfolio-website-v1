@@ -7,8 +7,8 @@ authorImage : "images/about/profile.jpg"
 authorSignature : "images/about/signature.png"
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Hi! I'm Sam, a second year Computer Science student from Durham University. 
+I like doing personal projects, which you will find in the portfolio page of this website. 
+My specialties can be found on the homepage, of which most are web development or cyber security.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
-
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+I am currently available for part time remote work or summer work, but will be looking for full time employment from summer 2021.
