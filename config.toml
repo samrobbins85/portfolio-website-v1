@@ -55,7 +55,8 @@ logo = "images/logo.png"
 home = "Home"
 # Meta data
 description = "The website of Sam Robbins, Computer Science Student at Durham University"
-author = "Themefisher"
+author = "Sam Robbins"
+image = "images/about/profile.jpg"
 # Google Analitycs
 googleAnalitycsID = "Your ID"
 
