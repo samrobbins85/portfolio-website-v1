@@ -2,7 +2,6 @@
 title: "Durhack 2019"
 date: 2020-01-01T15:19:11Z
 image: "https://durhack.com/assets/logo.png"
-draft: true
 categories:
   - web-dev
 description: "My project created at DurHack 2019"
