@@ -1,4 +1,4 @@
-baseURL = "https://beta.samrobbins.uk"
+baseURL = "https://samrobbins.uk"
 languageCode = "en-gb"
 title = "Sam Robbins"
 theme = "hugo-developer-portfolio"
