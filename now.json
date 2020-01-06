@@ -1,4 +1,7 @@
 {
   "version": 2,
-  "alias": ["samrobbins.uk"]
+  "alias": ["samrobbins.uk"],
+  "builds":[
+  {"src": "keybase.txt", "use": "@now/static"}
+  ]
 } 
