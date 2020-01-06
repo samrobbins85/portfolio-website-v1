@@ -1,0 +1,56 @@
+
+==================================================================
+https://keybase.io/samrobbins
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://samrobbins.uk
+  * I am samrobbins (https://keybase.io/samrobbins) on keybase.
+  * I have a public key ASD-4_wi7aXAgdQM7j5ep-9MGytQx_Po9TWG7-x2ODJjsQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120fee3fc22eda5c081d40cee3e5ea7ef4c1b2b50c7f3e8f53586efec76383263b10a",
+      "host": "keybase.io",
+      "kid": "0120fee3fc22eda5c081d40cee3e5ea7ef4c1b2b50c7f3e8f53586efec76383263b10a",
+      "uid": "8fa7e6abce8887daa22f7a266b3a0419",
+      "username": "samrobbins"
+    },
+    "merkle_root": {
+      "ctime": 1563174645,
+      "hash": "b25adc41ce3a8bc47ae1c77fc09b0ce3d382cd87322e8c914902fe6b4f1c4286a5ba5055094a2d70ef1decbe3c294c7b2b5e95497498778be6251bae46ebc136",
+      "hash_meta": "550d50d2dd80179aa45f6330ddaf0d81c3eb2d7ea4dfca8c0154fc45f2705c85",
+      "seqno": 5763613
+    },
+    "service": {
+      "entropy": "SW++nXm9ivWJXxfVVQ7k9Uos",
+      "hostname": "samrobbins.uk",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563174654,
+  "expire_in": 504576000,
+  "prev": "c794b19bd97d49bcfc27305f77faacc0fa56e8da77d3455d49a98805c30e051f",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/uP8Iu2lwIHUDO4+XqfvTBsrUMfz6PU1hu/sdjgyY7EKp3BheWxvYWTESpcCCMQgx5Sxm9l9Sbz8JzBfd/qswPpW6Np300VdSamIBcMOBR/EICZ+YZZYLCPMMM8AdQkDA8N2SG35yuiAmOo51YuGY6vwAgHCo3NpZ8RAd/ksAdiOTtzjIV3myrt0gbGZMy/3HJDtiE/TbnvvCUJse6yitbPKmhyxAQtkH2OaKz8lV3jwp3Aifh5oWCohA6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIOxpka6zWG0UOcko7BSzm+egymYkc5o3fIgYdmhSa9m+o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/samrobbins
+ 
