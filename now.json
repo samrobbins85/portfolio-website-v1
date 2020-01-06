@@ -2,6 +2,6 @@
   "version": 2,
   "alias": ["samrobbins.uk"],
   "builds":[
-  {"src": "*", "use": "@now/static"},
+  {"src": "*", "use": "@now/static"}
   ]
 } 
