@@ -8,6 +8,7 @@ description: "My project created at DurHack 2019"
 type: "post"
 ---
 {{< figure src="/images/portfolio/durhack2019.png" caption="Our website created at DurHack 2019" width="100%">}}
+
 Our project was to build a tool to help people with dementia remember things, this is implemented in various ways, as described below.
 
 ### Capital One
