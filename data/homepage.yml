@@ -219,27 +219,6 @@ education:
 
 
 
-
-# service
-service:
-    enable : true
-    item :
-        - title : "UI Design"
-          icon : "ti-palette"
-          content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          highlighted : false
-
-        - title : "UX Design"
-          icon : "ti-vector"
-          content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          highlighted : true
-
-        - title : "Interaction Design"
-          icon : "ti-panel"
-          content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          highlighted : false
-
-
 #     _____                   _      __           _   _
 #    |  __ \                 | |    / _|         | | (_)
 #    | |__) |   ___    _ __  | |_  | |_    ___   | |  _    ___
@@ -249,58 +228,6 @@ service:
 
 
 
-portfolio:
-    enable : true
-    item:
-        - image : "images/portfolio/item-1.webp"
-          projectURL : "#"
-
-        - image : "images/portfolio/item-2.webp"
-          projectURL : "#"
-
-        - image : "images/portfolio/item-3.webp"
-          projectURL : "#"
-
-        - image : "images/portfolio/item-4.webp"
-          projectURL : "#"
-
-        - image : "images/portfolio/item-5.webp"
-          projectURL : "#"
-
-
-# client slider
-clientSlider:
-    enable : true
-    item:
-        - logo : "images/clients-logo/client-logo-1.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-2.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-3.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-4.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-5.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-1.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-2.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-3.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-4.png"
-          URL : "#"
-
-        - logo : "images/clients-logo/client-logo-5.png"
-          URL : "#"
 
 # blog
 blog:
