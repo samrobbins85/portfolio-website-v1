@@ -52,22 +52,6 @@ about:
 
 skill:
     enable : true
-    skillbar:
-        - title : "Cyber Security"
-          progress : "90%"
-          color : "#fdb157"
-
-        - title : "Web Dev"
-          progress : "70%"
-          color : "#9473e6"
-
-        - title : "Linux"
-          progress : "80%"
-          color : "#bdecf6"
-
-        - title : "Python"
-          progress : "70%"
-          color : "#ffbcaa"
     item:
         - logo: "https://cdn.svgporn.com/logos/javascript.svg"
           title: "JavaScript"
