@@ -91,89 +91,87 @@ skill:
 
         - logo: "https://cdn.svgporn.com/logos/python.svg"
           title: "Python"
-          description: "
-      * [I'm an inline-style link](https://www.google.com)\n
-      * Random\n
-      * Markdown "
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/php.svg"
           title: "PHP"
-          description: "I have used PHP in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/java.svg"
           title: "Java"
-          description: "I have used Java in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/c.svg"
           title: "C"
-          description: "I have used C in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/haskell-icon.svg"
           title: "Haskell"
-          description: "I have used Haskell in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/LaTeX_logo.svg/800px-LaTeX_logo.svg.png"
           title: "LaTeX"
-          description: "I have used LaTeX in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg"
           title: "Bash"
-          description: "I have used Bash in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://upload.wikimedia.org/wikipedia/commons/a/af/PowerShell_Core_6.0_icon.png"
           title: "PowerShell"
-          description: "I have used PowerShell in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/nodejs-icon.svg"
           title: "Node.js"
-          description: "I have used Node.js in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg"
           title: "Wireshark"
-          description: "I have used Wireshark in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/git-icon.svg"
           title: "Git"
-          description: "I have used Git in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://pbs.twimg.com/profile_images/580131056629735424/2ENTk2K2_400x400.png"
           title: "Metasploit"
-          description: "I have used Metasploit in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/twilio.svg"
           title: "Twilio"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/bootstrap.svg"
           title: "Bootstrap"
-          description: "I have used Bootstrap in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://user-images.githubusercontent.com/98330/63813335-20cd4b80-c8e2-11e9-9c04-e4dbf7285aa1.png"
           title: "NumPy"
-          description: "I have used NumPy in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/react.svg"
           title: "React"
-          description: "I have used React in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.worldvectorlogo.com/logos/arduino-1.svg"
           title: "Arduino"
-          description: "I have used Arduino in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/raspberry-pi.svg"
           title: "Raspberry Pi"
-          description: "I have used Raspberry Pi in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://cdn.svgporn.com/logos/linux-tux.svg"
           title: "Linux"
-          description: "I have used Linux in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://pbs.twimg.com/profile_images/1146106967477379073/J3fzYcnz_400x400.png"
           title: "MongoDB"
-          description: "I have used MongoDB in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
         - logo: "https://unicons.iconscout.com/release/v2.0.1/svg/line/database.svg"
           title: "SQL"
-          description: "I have used SQL in a range of projects"
+          description: "Details coming soon, contact me if you want to know more"
 
 # experience
 
