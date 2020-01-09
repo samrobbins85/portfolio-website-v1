@@ -25,6 +25,7 @@ social:
     gitlab: ""
     facebook: ""
     instagram: ""
+    gmail: "samrobbinsgb"
 
 #                _                       _
 #        /\     | |                     | |
@@ -70,7 +71,7 @@ skill:
          Rest API Coursework
        </a>
        </h4>
-      In this coursework we were tasked with creating a single page app with a server that would provide JSON via a REST API. As an extension we were to include an external API.
+      In this coursework we were tasked with creating a single page app with a server that would provide JSON via a REST API. As an extension we could include an external API.
       "
 
         - logo: "https://cdn.svgporn.com/logos/python.svg"
