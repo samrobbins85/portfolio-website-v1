@@ -78,4 +78,5 @@ googleAnalitycsID = "Your ID"
   email = "samrobbinsgb@gmail.com"
   phone = ""
   address = "Durham, UK"
+  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
 
