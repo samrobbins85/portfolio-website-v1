@@ -12,6 +12,8 @@ summaryLength = "10"
   URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   [[params.plugins.css]]
   URL = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
 
   # JS Plugins
   [[params.plugins.js]]
@@ -24,6 +26,10 @@ summaryLength = "10"
   URL = "https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.3/shuffle.min.js"
   [[params.plugins.js]]
   URL = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
 
 
 # navigation
@@ -58,7 +64,7 @@ description = "The website of Sam Robbins, 2nd Year Computer Science Student at 
 author = "Sam Robbins"
 image = "images/about/profile.jpg"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalytics = "UA-156072112-1"
 
   # Preloader
   [params.preloader]
@@ -72,4 +78,5 @@ googleAnalitycsID = "Your ID"
   email = "samrobbinsgb@gmail.com"
   phone = ""
   address = "Durham, UK"
+  googlemaps = "https://www.google.com/maps/embed/v1/place?q=place_id:ChIJwbHYJaUqfEgRK0Ui9dVGimc&key=AIzaSyAE_4rVAKux_DSPcb_OdSRDaovtPOSk_3U"
 
