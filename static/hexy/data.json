@@ -1,0 +1,15 @@
+[
+  {
+    "raster": "hexagons/durhack.png",
+    "name": "durhack",
+    "description": "2017 season I demoed sticker",
+    "filename": "meta/durhack201819.json"
+  },
+  {
+    "name": "DurHack 2019",
+    "raster": "hexagons/durhack2019.png",
+    "description": "DurHack2019 Hex sticker",
+    "order_online_url": "this is optional. should be a link to where people can buy the sticker online",
+    "filename": "meta/durhack2019.json"
+  }
+]
