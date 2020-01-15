@@ -197,6 +197,25 @@ experience:
           duration: "Mar 2015 - Apr 2015"
 
 
+#    | |  | |          | |       | | | |
+#    | |__| | __ _  ___| | ____ _| |_| |__   ___  _ __  ___
+#    |  __  |/ _` |/ __| |/ / _` | __| '_ \ / _ \| '_ \/ __|
+#    | |  | | (_| | (__|   < (_| | |_| | | | (_) | | | \__ \
+#    |_|  |_|\__,_|\___|_|\_\__,_|\__|_| |_|\___/|_| |_|___/
+
+hackathons:
+    item:
+        - title : "DurHack 2019"
+          description: "Dementia Helper"
+          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/201920/durhack%20(1).png"
+          url: "/portfolio/durhack-2019/"
+        - title: "DurHack 2018"
+          description: Cult Bot
+          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/201819/durhack.png"
+          url: "#"
+
+
+
 #     ______       _                          _     _
 #    |  ____|     | |                        | |   (_)
 #    | |__      __| |  _   _    ___    __ _  | |_   _    ___    _ __
