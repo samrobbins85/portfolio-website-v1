@@ -213,6 +213,9 @@ hackathons:
           description: Cult Bot
           image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/201819/durhack.png"
           url: "#"
+        - title: "Hack Cambridge 2019"
+          description: "Climate change simulator"
+          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/Hack-Cambridge-101.png"
 
 
 
