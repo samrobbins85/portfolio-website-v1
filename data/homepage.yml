@@ -205,6 +205,10 @@ experience:
 
 hackathons:
     item:
+        - title: "Hack Cambridge 2019"
+          description: "Climate change simulator"
+          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/Hack-Cambridge-101.png"
+          url: "#"
         - title : "DurHack 2019"
           description: "Dementia Helper"
           image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/201920/durhack%20(1).png"
