@@ -207,7 +207,7 @@ hackathons:
     item:
         - title: "Hack Cambridge 2019"
           description: "Climate change simulator"
-          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/Hack-Cambridge-101.png"
+          image: "/stickers/Hack Cambridge 101.png"
           url: "#"
         - title : "DurHack 2019"
           description: "Dementia Helper"
@@ -215,7 +215,7 @@ hackathons:
           url: "/portfolio/durhack-2019/"
         - title: "DurHack 2018"
           description: Cult Bot
-          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/201819/durhack.png"
+          image: "/stickers/durhack18.png"
           url: "#"
 
 
