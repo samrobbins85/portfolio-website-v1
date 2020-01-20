@@ -157,6 +157,22 @@ skill:
         - logo: "/logos/sql.svg"
           title: "SQL"
           description: "Details coming soon, contact me if you want to know more"
+          
+        - logo: "/logos/css.svg"
+          title: "CSS"
+          description: "Details coming soon, contact me if you want to know more"
+          
+        - logo: "/logos/hugo.svg"
+          title: "Hugo"
+          description: "Details coming soon, contact me if you want to know more"
+          
+        - logo: "/logos/flask.svg"
+          title: "Flask"
+          description: "Details coming soon, contact me if you want to know more"
+          
+        - logo: "/logos/zeit.svg"
+          title: "ZEIT"
+          description: "Details coming soon, contact me if you want to know more"
 
 # experience
 
