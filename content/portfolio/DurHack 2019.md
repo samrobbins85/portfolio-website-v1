@@ -6,6 +6,12 @@ categories:
   - web-dev
 description: "My project created at DurHack 2019"
 type: "post"
+coders:
+    - samrobbins85
+    - tomnudd
+    - karina-talibzhanova
+    - MAGGithub1
+
 ---
 {{< figure src="/images/portfolio/durhack2019.png" caption="Our website created at DurHack 2019" width="100%">}}
 
