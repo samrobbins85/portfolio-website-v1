@@ -11,6 +11,7 @@ coders:
     - tomnudd
     - karina-talibzhanova
     - MAGGithub1
+github: https://github.com/tomnudd/durhack
 
 ---
 {{< figure src="/images/portfolio/durhack2019.png" caption="Our website created at DurHack 2019" width="100%">}}
