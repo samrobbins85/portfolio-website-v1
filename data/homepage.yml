@@ -195,22 +195,22 @@ experience:
         - logo : "/logos/google.svg"
           title : "init.g"
           company : "Google"
-          duration : "Nov 2019"
+          duration : "November 2019"
 
         - logo : "/logos/pmt.png"
           title : "Web Developer"
           company : "Physics and Maths Tutor"
-          duration : "Oct 2019 - Present"
+          duration : "October 2019 - Present"
 
         - logo : "/logos/nexus.png"
           title : "Work Experience"
           company : "Nexus"
-          duration : "Jul 2017"
+          duration : "July 2017"
 
         - logo: "/logos/nustem.png"
           title: "Work Experience"
           company: "nustem"
-          duration: "Mar 2015 - Apr 2015"
+          duration: "March 2015 - April 2015"
 
 
 #    | |  | |          | |       | | | |
@@ -273,3 +273,29 @@ education:
 # blog
 blog:
     enable : true
+
+
+
+#    Leadership and Teamwork
+leadership:
+    enable : true
+    item:
+        - logo : "/logos/yl.png"
+          title : "Young Leader"
+          company : "The Scout Association"
+          duration : "September 2014 - July 2018"
+
+        - logo : "/logos/kevi.png"
+          title : "Leader of the Space Club"
+          company : "The King Edward VI School"
+          duration : "April 2017 - April 2018"
+
+        - logo : "/logos/explorerbelt.png"
+          title : "Explorer Belt"
+          company : "The Scout Association"
+          duration : "August 2016"
+
+        - logo: "/logos/dofe.png"
+          title: "Bronze and Silver DofE"
+          company: "The Duke of Edinburgh's Award"
+          duration: "June 2014 - Present"
