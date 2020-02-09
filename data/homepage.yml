@@ -197,17 +197,17 @@ experience:
           company : "Google"
           duration : "November 2019"
 
-        - logo : "/logos/pmt.png"
+        - logo : "/logos/pmt.webp"
           title : "Web Developer"
           company : "Physics and Maths Tutor"
           duration : "October 2019 - Present"
 
-        - logo : "/logos/nexus.png"
+        - logo : "/logos/nexus.webp"
           title : "Work Experience"
           company : "Nexus"
           duration : "July 2017"
 
-        - logo: "/logos/nustem.png"
+        - logo: "/logos/nustem.webp"
           title: "Work Experience"
           company: "nustem"
           duration: "March 2015 - April 2015"
@@ -256,7 +256,7 @@ education:
         - title : "GCSEs and A Levels"
           year : "2013-2018"
           academy : "The King Edward VI School"
-          image: "/logos/kevi.png"
+          image: "/logos/kevi.webp"
 
 
 
@@ -280,22 +280,22 @@ blog:
 leadership:
     enable : true
     item:
-        - logo : "/logos/yl.png"
+        - logo : "/logos/yl.webp"
           title : "Young Leader"
           company : "The Scout Association"
           duration : "September 2014 - July 2018"
 
-        - logo : "/logos/kevi.png"
+        - logo : "/logos/kevi.webp"
           title : "Leader of the Space Club"
           company : "The King Edward VI School"
           duration : "April 2017 - April 2018"
 
-        - logo : "/logos/explorerbelt.png"
+        - logo : "/logos/explorerbelt.webp"
           title : "Explorer Belt"
           company : "The Scout Association"
           duration : "August 2016"
 
-        - logo: "/logos/dofe.png"
+        - logo: "/logos/dofe.webp"
           title: "Bronze and Silver DofE"
           company: "The Duke of Edinburgh's Award"
           duration: "June 2014 - Present"
