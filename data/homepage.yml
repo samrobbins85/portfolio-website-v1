@@ -181,7 +181,7 @@ skill:
           title: "Sphinx"
           description: "Details coming soon, contact me if you want to know more"
         -   logo: "/logos/uikit.svg"
-            title: "uikit"
+            title: "UIkit"
             description: "Details coming soon, contact me if you want to know more"
         -   logo: "/logos/pyro.png"
             title: "Pyro"
