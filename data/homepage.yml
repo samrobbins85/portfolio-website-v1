@@ -40,7 +40,7 @@ about:
     enable : true
     content : "2nd Year Durham Computer Science Student"
     button:
-        btnText : "know more"
+        btnText : "Find out more"
         URL : "/about"
 
 #      _____   _      _   _   _
