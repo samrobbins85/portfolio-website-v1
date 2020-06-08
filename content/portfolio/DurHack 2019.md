@@ -4,6 +4,7 @@ date: 2020-01-01T15:19:11Z
 image: "https://durhack.com/assets/logo.png"
 categories:
   - web-dev
+  - hackathon
 description: "My project created at DurHack 2019"
 type: "post"
 coders:
