@@ -129,14 +129,14 @@ fields:
     label: item
     fields:
     - type: text
+      name: academy
+      label: academy
+    - type: text
       name: title
       label: title
     - type: text
       name: year
       label: year
-    - type: text
-      name: academy
-      label: academy
     - type: file
       name: image
       label: image
