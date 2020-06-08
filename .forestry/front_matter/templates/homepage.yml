@@ -65,12 +65,12 @@ fields:
     name: item
     label: item
     fields:
-    - type: file
-      name: logo
-      label: logo
     - type: text
       name: title
       label: title
+    - type: file
+      name: logo
+      label: logo
     - type: textarea
       name: description
       label: description
