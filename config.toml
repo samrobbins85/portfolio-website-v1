@@ -9,29 +9,14 @@ summaryLength = "10"
 
   # CSS Plugins
   [[params.plugins.css]]
-  URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  [[params.plugins.css]]
-  URL = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
-  [[params.plugins.css]]
   URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
 
   # JS Plugins
   [[params.plugins.js]]
-  URL = "https://code.jquery.com/jquery-3.4.1.min.js"
-  [[params.plugins.js]]
-  URL = "https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdnjs.cloudflare.com/ajax/libs/Shuffle/5.2.3/shuffle.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-  [[params.plugins.js]]
   URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
   [[params.plugins.js]]
   URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
-  [[params.plugins.js]]
-  URL = "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.8/iframeResizer.contentWindow.min.js"
+
 
 # navigation
 [menu]
