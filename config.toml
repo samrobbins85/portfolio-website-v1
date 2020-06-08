@@ -49,12 +49,7 @@ home = "Home"
 description = "The website of Sam Robbins, 2nd Year Computer Science Student at Durham University"
 author = "Sam Robbins"
 image = "images/about/profile.jpg"
-# Google Analitycs
-googleAnalytics = "UA-156072112-1"
 
-  # Preloader
-  [params.preloader]
-  enable = true
 
   [params.contact]
   enable = true
