@@ -171,7 +171,7 @@ skill:
           description: "Details coming soon, contact me if you want to know more"
           
         - logo: "/logos/zeit.svg"
-          title: "ZEIT"
+          title: "Vercel"
           description: "Details coming soon, contact me if you want to know more"
 
         - logo: "/logos/auth0.svg"
