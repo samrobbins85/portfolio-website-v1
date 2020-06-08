@@ -159,11 +159,11 @@ fields:
     label: item
     fields:
     - type: text
-      name: company
-      label: company
-    - type: text
       name: title
       label: title
+    - type: text
+      name: company
+      label: company
     - type: text
       name: logo
       label: logo
