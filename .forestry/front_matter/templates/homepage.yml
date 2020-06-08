@@ -1,0 +1,172 @@
+---
+label: Homepage
+hide_body: true
+fields:
+- type: field_group
+  name: banner
+  label: banner
+  fields:
+  - type: text
+    name: title
+    label: title
+- type: field_group
+  name: social
+  label: social
+  fields:
+  - type: text
+    name: twitter
+    label: twitter
+  - type: text
+    name: linkedin
+    label: linkedin
+  - type: text
+    name: github
+    label: github
+  - type: text
+    name: gitlab
+    label: gitlab
+  - type: text
+    name: facebook
+    label: facebook
+  - type: text
+    name: instagram
+    label: instagram
+  - type: text
+    name: gmail
+    label: gmail
+- type: field_group
+  name: about
+  label: about
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: text
+    name: content
+    label: content
+  - type: field_group
+    name: button
+    label: button
+    fields:
+    - type: text
+      name: btnText
+      label: btnText
+    - type: text
+      name: URL
+      label: URL
+- type: field_group
+  name: skill
+  label: skill
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: file
+      name: logo
+      label: logo
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: description
+      label: description
+- type: field_group
+  name: experience
+  label: experience
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: file
+      name: logo
+      label: logo
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: company
+      label: company
+    - type: text
+      name: duration
+      label: duration
+- type: field_group
+  name: hackathons
+  label: hackathons
+  fields:
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: description
+      label: description
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: url
+      label: url
+- type: field_group
+  name: education
+  label: education
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: year
+      label: year
+    - type: text
+      name: academy
+      label: academy
+    - type: file
+      name: image
+      label: image
+- type: field_group
+  name: blog
+  label: blog
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+- type: field_group
+  name: leadership
+  label: leadership
+  fields:
+  - type: boolean
+    name: enable
+    label: enable
+  - type: field_group_list
+    name: item
+    label: item
+    fields:
+    - type: text
+      name: logo
+      label: logo
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: company
+      label: company
+    - type: text
+      name: duration
+      label: duration
