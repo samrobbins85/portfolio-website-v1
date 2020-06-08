@@ -159,14 +159,14 @@ fields:
     label: item
     fields:
     - type: text
-      name: logo
-      label: logo
+      name: company
+      label: company
     - type: text
       name: title
       label: title
     - type: text
-      name: company
-      label: company
+      name: logo
+      label: logo
     - type: text
       name: duration
       label: duration
