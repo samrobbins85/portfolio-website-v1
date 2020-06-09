@@ -241,15 +241,15 @@ hackathons:
     item:
         - title: "Hack Cambridge 2019"
           description: "Climate change simulator"
-          image: "/stickers/Hack Cambridge 101.png"
+          image: "https://res.cloudinary.com/samrobbins/image/upload/v1591695751/Hack_Cambridge_101_l5uhos.png"
           url: "#"
         - title : "DurHack 2019"
           description: "Dementia Helper"
-          image: "https://raw.githubusercontent.com/HHEU/hexbin/gh-pages/hexagons/201920/durhack%20(1).png"
+          image: "https://res.cloudinary.com/samrobbins/image/upload/v1591695751/durhack19_zb4jfd.png"
           url: "/portfolio/durhack-2019/"
         - title: "DurHack 2018"
           description: Cult Bot
-          image: "/stickers/durhack18.png"
+          image: "https://res.cloudinary.com/samrobbins/image/upload/v1591695751/durhack18_nxfxvm.png"
           url: "#"
 
 
