@@ -242,7 +242,7 @@ hackathons:
         - title: "Hack Cambridge 2019"
           description: "Climate change simulator"
           image: "https://res.cloudinary.com/samrobbins/image/upload/q_auto,f_auto/Hack_Cambridge_101_l5uhos.webp"
-          url: "#"
+          url: "javascript:void(0)"
         - title : "DurHack 2019"
           description: "Dementia Helper"
           image: "https://res.cloudinary.com/samrobbins/image/upload/q_auto,f_auto/durhack19_zb4jfd.webp"
@@ -250,7 +250,7 @@ hackathons:
         - title: "DurHack 2018"
           description: Cult Bot
           image: "https://res.cloudinary.com/samrobbins/image/upload/q_auto,f_auto/durhack18_nxfxvm.webp"
-          url: "#"
+          url: "javascript:void(0)"
 
 
 
