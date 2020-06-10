@@ -84,6 +84,15 @@ skill:
   - title: Twilio
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793278/logos/logos_twilio_uaflxm.svg
+  - title: WebGL
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591796740/WebGL_Logo_guatbi.svg
+  - title: Pandas
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591796596/Pandas_logo_ryshfw.svg
+  - title: scikit learn
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591796690/Scikit_learn_logo_small_xfxlim.svg
   - title: Metasploit
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_metasploit_dpuf93.svg
