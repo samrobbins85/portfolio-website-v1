@@ -34,7 +34,7 @@ sections:
   label: About
   create: all
   match: "**/*"
-upload_dir: https://res.cloudinary.com/samrobbins/image/upload
+upload_dir: ''
 public_path: ''
 front_matter_path: ''
 use_front_matter_path: 
