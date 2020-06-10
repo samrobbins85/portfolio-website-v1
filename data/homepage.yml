@@ -17,7 +17,10 @@ about:
     URL: "/about"
 skill:
   enable: true
-  item: []
+  item:
+  - title: JavaScript
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+    description: Contact me for more details
 experience:
   enable: true
   item:
