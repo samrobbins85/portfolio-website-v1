@@ -167,10 +167,12 @@ fields:
       name: company
       label: company
     - type: text
-      name: logo
-      label: logo
-    - type: text
       name: duration
       label: duration
+    - name: logo
+      type: file
+      config:
+        maxSize: 64
+      label: Logo
 pages:
 - data/homepage.yml
