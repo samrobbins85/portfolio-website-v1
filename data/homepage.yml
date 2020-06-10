@@ -111,19 +111,19 @@ skill:
 experience:
   enable: true
   item:
-  - logo: "/logos/google.svg"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
     title: init.g
     company: Google
     duration: November 2019
-  - logo: "/logos/pmt.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793275/logos/logos_pmt_tdrgcd.webp
     title: Web Developer
     company: Physics and Maths Tutor
     duration: October 2019 - Present
-  - logo: "/logos/nexus.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793274/logos/logos_nexus_i7azpj.webp
     title: Work Experience
     company: Nexus
     duration: July 2017
-  - logo: "/logos/nustem.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793274/logos/logos_nustem_l2nwbm.webp
     title: Work Experience
     company: nustem
     duration: March 2015 - April 2015
@@ -147,29 +147,29 @@ education:
   - title: BSc Computer Science
     year: 2018 - Present
     academy: Durham University
-    image: "/logos/Durham.svg"
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
   - title: GCSEs and A Levels
     year: 2013-2018
     academy: The King Edward VI School
-    image: "/logos/kevi.webp"
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
 blog:
   enable: true
 leadership:
   enable: true
   item:
-  - logo: "/logos/yl.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
     title: Young Leader
     company: The Scout Association
     duration: September 2014 - July 2018
-  - logo: "/logos/kevi.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
     title: Leader of the Space Club
     company: The King Edward VI School
     duration: April 2017 - April 2018
-  - logo: "/logos/explorerbelt.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_explorerbelt_ezjvqq.webp
     title: Explorer Belt
     company: The Scout Association
     duration: August 2016
-  - logo: "/logos/dofe.webp"
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_dofe_j7lpeh.webp
     title: Bronze and Silver DofE
     company: The Duke of Edinburgh's Award
-    duration: June 2014 - Present
+    duration: June 2014 - January 2017
