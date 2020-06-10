@@ -68,12 +68,14 @@ fields:
     - type: text
       name: title
       label: title
-    - type: file
-      name: logo
-      label: logo
     - type: textarea
       name: description
       label: description
+    - name: logo
+      type: file
+      config:
+        maxSize: 64
+      label: Logo
 - type: field_group
   name: experience
   label: experience
