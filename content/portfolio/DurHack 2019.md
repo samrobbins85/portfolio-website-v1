@@ -15,7 +15,7 @@ coders:
 github: https://github.com/tomnudd/durhack
 
 ---
-![Durhack Project](/v1591793300/images/portfolio/images_portfolio_durhack2019_pyn6xr.png "Durhack 2019 Project")
+![](https://res.cloudinary.com/samrobbins/image/upload/v1591793300/images/portfolio/images_portfolio_durhack2019_pyn6xr.png)
 
 Our project was to build a tool to help people with dementia remember things, this is implemented in various ways, as described below.
 
