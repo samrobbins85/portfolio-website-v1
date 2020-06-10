@@ -1,0 +1,28 @@
+---
+label: Portfolio
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: image
+  label: image
+- type: list
+  name: categories
+  label: categories
+- type: text
+  name: description
+  label: description
+- type: text
+  name: type
+  label: type
+- type: list
+  name: coders
+  label: coders
+- type: text
+  name: github
+  label: github
