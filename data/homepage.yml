@@ -18,18 +18,96 @@ about:
 skill:
   enable: true
   item:
+  - title: JavaScript
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
+    description: Contact me for more details
+  - title: Python
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_python_pjlesq.svg
+  - title: Vercel
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793280/logos/logos_zeit_mj2mka.svg
+  - title: LaTeX
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_latex_jy4wnp.svg
+  - title: Linux
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793274/logos/logos_linux_btjirt.svg
+  - title: Hugo
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_hugo_h2xbne.svg
+  - title: Git
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793270/logos/logos_git_qtmuef.svg
+  - title: Raspberry Pi
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793277/logos/logos_raspberry-pi_y4fqbh.svg
+  - title: Arduino
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793268/logos/logos_arduino_ntbgxq.svg
+  - title: CSS
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793269/logos/logos_css_rtjkmm.svg
+  - title: NumPy
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_numpy_o7clku.svg
+  - title: Bootstrap
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793268/logos/logos_bootstrap_v9pseb.svg
+  - title: UIkit
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793279/logos/logos_uikit_irc5gp.svg
+  - title: MongoDB
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793273/logos/logos_mongodb_hwboyi.svg
+  - title: Node.js
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793274/logos/logos_nodejs_cibq16.svg
+  - title: Bash
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793268/logos/logos_bash_f4fcnm.svg
+  - title: SQL
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793278/logos/logos_sql_a2ktan.svg
+  - title: Sphinx
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793277/logos/logos_sphinx_wih1hq.svg
+  - title: Auth0
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793268/logos/logos_auth0_ruvdmp.svg
+  - title: Flask
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793270/logos/logos_flask_oavwzw.svg
+  - title: React
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793278/logos/logos_react_z0nqxp.svg
+  - title: Twilio
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793278/logos/logos_twilio_uaflxm.svg
+  - title: Metasploit
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_metasploit_dpuf93.svg
+  - title: Wireshark
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793279/logos/logos_wireshark_eg5wzb.svg
+  - title: Powershell
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793275/logos/logos_powershell_zrt2np.svg
+  - title: Haskell
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_haskell_te6sa6.svg
+  - title: C
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793268/logos/logos_c_vv6oat.svg
   - title: Java
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_java_ntwjnr.svg
   - title: PHP
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793275/logos/logos_php_zgcycc.svg
-  - title: Python
+  - title: Pyro
     description: Details coming soon, contact me if you want to know more
-    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_python_pjlesq.svg
-  - title: JavaScript
-    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
-    description: Contact me for more details
+    logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_pyro_lgx1kg.png
 experience:
   enable: true
   item:
