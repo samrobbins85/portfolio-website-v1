@@ -140,15 +140,15 @@ hackathons:
   item:
   - title: Hack Cambridge 2019
     description: Climate change simulator
-    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto,f_auto/Hack_Cambridge_101_l5uhos.webp
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
     url: javascript:void(0)
   - title: DurHack 2019
     description: Dementia Helper
-    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto,f_auto/durhack19_zb4jfd.webp
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793399/stickers/durhack19_dzecbb.png
     url: "/portfolio/durhack-2019/"
   - title: DurHack 2018
     description: Cult Bot
-    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto,f_auto/durhack18_nxfxvm.webp
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793396/stickers/durhack18_k2atqm.png
     url: javascript:void(0)
 education:
   enable: true
