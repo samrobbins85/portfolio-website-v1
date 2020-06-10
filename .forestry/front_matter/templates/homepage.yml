@@ -71,11 +71,6 @@ fields:
     - type: textarea
       name: description
       label: description
-    - name: logo
-      type: file
-      config:
-        maxSize: 64
-      label: Image
 - type: field_group
   name: experience
   label: experience
