@@ -137,6 +137,7 @@ experience:
     company: nustem
     duration: March 2015 - April 2015
 hackathons:
+  enable: true
   item:
   - title: Hack Cambridge 2019
     description: Climate change simulator
