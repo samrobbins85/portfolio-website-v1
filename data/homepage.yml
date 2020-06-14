@@ -18,6 +18,9 @@ about:
 skill:
   enable: true
   item:
+  - title: Firefox WebExtensions
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592157786/firefox_y8hgwb.svg
   - title: JavaScript
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793272/logos/logos_javascript_adj1dx.svg
     description: Details coming soon, contact me if you want to know more
