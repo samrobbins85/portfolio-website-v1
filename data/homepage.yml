@@ -117,6 +117,15 @@ skill:
   - title: Pyro
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_pyro_lgx1kg.png
+  - title: Flutter
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592150085/flutter_hxftsi.svg
+  - title: Dart
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592150134/dart_eivof0.svg
+  - title: Google Cloud Firestore
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592150281/Cloud_Firestore_nzseji.svg
 experience:
   enable: true
   item:
