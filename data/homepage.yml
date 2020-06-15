@@ -84,6 +84,9 @@ skill:
   - title: Twilio
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793278/logos/logos_twilio_uaflxm.svg
+  - title: WebExtensions
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592157786/firefox_y8hgwb.svg
   - title: WebGL
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591796740/WebGL_Logo_guatbi.svg
@@ -117,6 +120,15 @@ skill:
   - title: Pyro
     description: Details coming soon, contact me if you want to know more
     logo: https://res.cloudinary.com/samrobbins/image/upload/v1591793276/logos/logos_pyro_lgx1kg.png
+  - title: Flutter
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592150085/flutter_hxftsi.svg
+  - title: Dart
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592150134/dart_eivof0.svg
+  - title: Google Cloud Firestore
+    description: Details coming soon, contact me if you want to know more
+    logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592151079/Cloud_Firestore_1-_Icon_Light_sddjno.svg
 experience:
   enable: true
   item:
@@ -139,6 +151,10 @@ experience:
 hackathons:
   enable: true
   item:
+  - title: Same Home Different Hacks
+    description: Locate my tech
+    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592245893/shdh_rcmtav.png
+    url: javascript:void(0)
   - title: Hack Cambridge 2019
     description: Climate change simulator
     image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
