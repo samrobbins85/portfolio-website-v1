@@ -142,7 +142,7 @@ hackathons:
   - title: Hack Cambridge 2019
     description: Climate change simulator
     image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
-    url: javascript:void(0)
+    url: none
   - title: DurHack 2019
     description: Dementia Helper
     image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793399/stickers/durhack19_dzecbb.png
@@ -150,7 +150,7 @@ hackathons:
   - title: DurHack 2018
     description: Cult Bot
     image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793396/stickers/durhack18_k2atqm.png
-    url: javascript:void(0)
+    url: none
 education:
   enable: true
   item:
