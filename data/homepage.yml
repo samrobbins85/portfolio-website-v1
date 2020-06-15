@@ -154,7 +154,7 @@ hackathons:
   - title: Same Home Different Hacks
     description: Locate my tech
     image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592245893/shdh_rcmtav.png
-    url: javascript:void(0)
+    url: none
   - title: Hack Cambridge 2019
     description: Climate change simulator
     image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
