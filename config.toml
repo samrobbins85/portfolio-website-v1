@@ -3,7 +3,7 @@ baseURL = "https://samrobbins.uk"
 languageCode = "en-gb"
 title = "Sam Robbins"
 theme = "hugo-developer-portfolio"
-
+googleAnalytics = "UA-156072112-1"
 # Plugins
 [params.plugins]
 
