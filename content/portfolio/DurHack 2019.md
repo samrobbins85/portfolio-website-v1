@@ -1,7 +1,7 @@
 ---
 title: Durhack 2019
 date: 2020-01-01T15:19:11.000+00:00
-image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592676642/index_lsky3v.png
+image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592764251/durhack19_qskbsf.svg
 categories:
 - web-dev
 - hackathon
