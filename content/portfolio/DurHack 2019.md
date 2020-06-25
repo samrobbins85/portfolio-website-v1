@@ -12,7 +12,8 @@ coders:
 - tomnudd
 - karina-talibzhanova
 - MAGGithub1
-github: https://github.com/tomnudd/durhack
+github:
+ - https://github.com/tomnudd/durhack
 
 ---
 ![](https://res.cloudinary.com/samrobbins/image/upload/v1591793300/images/portfolio/images_portfolio_durhack2019_pyn6xr.png)
