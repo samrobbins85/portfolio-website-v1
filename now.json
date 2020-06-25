@@ -1,5 +1,8 @@
 {
   "version": 2,
   "alias": ["samrobbins.uk"],
-  "name": "Personal Website"
+  "name": "Personal Website",
+  "redirects":[
+    {"source": "/shdh", "destination": "https://github.com/samrobbins85/locatemytech"}    
+    ]
 } 
