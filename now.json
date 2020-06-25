@@ -8,6 +8,6 @@
     {"source": "/gh-portfolio", "destination": "https://github.com/samrobbins85/hugo-developer-portfolio"},
     {"source": "/dh19", "destination": "https://github.com/tomnudd/DurHack"},
     {"source": "/dh18", "destination": "https://github.com/tomnudd/DurHack18"},
-    {"source": "/pastpaper", "destination": "https://github.com/samrobbins85/pastpaperwebsite"},
+    {"source": "/pastpaper", "destination": "https://github.com/samrobbins85/pastpaperwebsite"}
     ]
 } 
