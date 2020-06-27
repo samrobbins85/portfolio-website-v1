@@ -9,5 +9,10 @@
     {"source": "/dh19", "destination": "https://github.com/tomnudd/DurHack"},
     {"source": "/dh18", "destination": "https://github.com/tomnudd/DurHack18"},
     {"source": "/pastpaper", "destination": "https://github.com/samrobbins85/pastpaperwebsite"}
-    ]
+    ],
+    "build": {
+    "env": {
+      "HUGO_VERSION": "0.73.0"
+    }
+  }
 } 
