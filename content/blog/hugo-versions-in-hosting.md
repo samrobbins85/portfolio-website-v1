@@ -27,6 +27,7 @@ The solution to this, in Vercel at least is simply to specify the version of Hug
   }
 }
 ```
+
 Replacing the version with whatever version works best for you.
 
 So a lesson for the future, if it "Works on my machine™" but not when deployed, check the versions running.
