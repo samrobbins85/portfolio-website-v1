@@ -33,5 +33,6 @@ fields:
     max: 
   label: GitHub
 pages:
+- content/blog/hugo-versions-in-hosting.md
 - content/portfolio/DurHack 2019.md
 - content/portfolio/hugo-portfolio-website.md
