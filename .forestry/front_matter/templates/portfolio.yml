@@ -20,14 +20,18 @@ fields:
 - type: list
   name: coders
   label: coders
-- type: text
-  name: github
-  label: github
 - name: image
   type: file
   config:
     maxSize: 64
   label: image
+- name: github
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: GitHub
 pages:
 - content/portfolio/DurHack 2019.md
 - content/portfolio/hugo-portfolio-website.md
