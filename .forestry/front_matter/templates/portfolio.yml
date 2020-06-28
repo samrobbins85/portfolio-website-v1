@@ -32,6 +32,26 @@ fields:
     min: 
     max: 
   label: GitHub
+- name: tech
+  type: field_group
+  config: {}
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: link
+    type: text
+    config:
+      required: false
+    label: Link
+  label: Tech
 pages:
 - content/blog/hugo-versions-in-hosting.md
 - content/portfolio/DurHack 2019.md
