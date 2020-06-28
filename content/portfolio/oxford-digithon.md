@@ -7,6 +7,14 @@ github = ["https://github.com/karina-talibzhanova/oxfordhack2020"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593352345/twoo-home_k7molq.png"
 title = "Oxford Digithon"
 type = ""
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793272/logos/logos_javascript_adj1dx.svg"
+name = "JavaScript"
+url = "https://www.ecma-international.org/memento/tc39.htm"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593368547/firefox-ar21_cps6me.svg"
+name = "Firefox WebExtensions"
+url = "https://www.mozilla.org/en-GB/firefox/"
 
 +++
 For this project we created a web browser extension designed to make you less productive. It did this by making productive websites difficult to use and directing you away from them. You can see our demonstration video here:
