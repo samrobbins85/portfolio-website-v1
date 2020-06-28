@@ -3,7 +3,6 @@ categories = ["hackathon", "web-dev"]
 coders = ["samrobbins85", "karina-talibzhanova"]
 date = 2020-05-30T23:00:00Z
 description = "A Firefox Browser Extension"
-draft = true
 github = ["https://github.com/karina-talibzhanova/oxfordhack2020"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593352345/twoo-home_k7molq.png"
 title = "Oxford Digithon"
@@ -107,12 +106,13 @@ function time_notification(url, tabID) {
 Due to the more aggressive nature of this intervention, it needed to be implemented as a content script, which we named `page-eater.js`. This file is then referenced in the `manifest.json` in the following way:
 
 ```json
-"content_scripts": [
+{"content_scripts": [
     {
       "matches": ["*://*/*"],
       "js": ["page-eater.js"]
     }
   ]
+  }
 ```
 
 The `"matches"` parameter takes a regular expression of which pages to run on, in our case, most pages, the `"js"` parameter then takes the file name of the content script.
