@@ -15,6 +15,9 @@ coders:
 github:
 - https://github.com/tomnudd/durhack
 tech:
+- name: Node.js
+  logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593447212/nodejs-1_nrbgo0.svg
+  url: https://nodejs.org/en/
 - name: MongoDB
   logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593368862/MongoDB-Logo_gq5otw.svg
   url: https://www.mongodb.com/
