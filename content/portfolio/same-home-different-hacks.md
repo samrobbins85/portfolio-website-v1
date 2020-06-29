@@ -16,7 +16,32 @@ url = "https://dart.dev/"
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592150085/flutter_hxftsi.svg"
 name = "Flutter"
 url = "https://flutter.dev/"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592151079/Cloud_Firestore_1-_Icon_Light_sddjno.svg"
+name = "Google Firestore"
+url = "https://firebase.google.com/products/firestore"
 
 +++
-
 In this project we made an Android app to keep track of electronic components.
+
+## Installation
+
+The code can be found here [https://github.com/samrobbins85/locatemytech](https://github.com/samrobbins85/locatemytech "https://github.com/samrobbins85/locatemytech"), it can be downloaded with
+
+```bash
+git clone https://github.com/samrobbins85/locatemytech.git
+```
+
+We haven't built the packages for this, so you will have to build it yourself using Flutter, instructions can be found here [https://flutter.dev/docs/get-started/install](https://flutter.dev/docs/get-started/install "https://flutter.dev/docs/get-started/install").
+
+## Pages
+
+### Homepage
+
+When you open the app, you are greeted with the following page
+
+![](https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593442133/homepage_yn25xq.jpg)
+
+This allows you to see all the components you have. A new component can be added with the plus button at the bottom and a component can be edited by tapping on it.
+
+The main code for this page is stored in `main.dart`. It consists of the class `_MyHomePageState` which defines all the content on the page. The widget `build` describes the content around the edge of the page, such as the titlebar. The widgets `_buildBody` `_buildList` and `_buildListItem` are then used to define the content on the page.
