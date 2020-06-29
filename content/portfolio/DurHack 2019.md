@@ -13,7 +13,17 @@ coders:
 - karina-talibzhanova
 - MAGGithub1
 github:
- - https://github.com/tomnudd/durhack
+- https://github.com/tomnudd/durhack
+tech:
+- name: MongoDB
+  logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593368862/MongoDB-Logo_gq5otw.svg
+  url: https://www.mongodb.com/
+- name: Capital One
+  logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593368806/capital-one-2_zhtqjq.svg
+  url: https://www.capitalone.co.uk/
+- name: Twilio
+  logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593368747/twilio-2_rqhhfg.svg
+  url: https://www.twilio.com/
 
 ---
 ![](https://res.cloudinary.com/samrobbins/image/upload/v1591793300/images/portfolio/images_portfolio_durhack2019_pyn6xr.png)

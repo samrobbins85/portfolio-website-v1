@@ -15,6 +15,7 @@ url = "https://gohugo.io/"
 logo = "https://res.cloudinary.com/samrobbins/image/upload/v1591793279/logos/logos_uikit_irc5gp.svg"
 name = "UIkit"
 url = "https://getuikit.com/"
+
 +++
 I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
 

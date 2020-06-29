@@ -32,7 +32,32 @@ fields:
     min: 
     max: 
   label: GitHub
+- name: tech
+  type: field_group_list
+  fields:
+  - name: name
+    type: text
+    config:
+      required: false
+    label: Name
+  - name: logo
+    type: file
+    config:
+      maxSize: 64
+    label: Logo
+  - name: url
+    type: text
+    config:
+      required: false
+    label: URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Tech
 pages:
 - content/blog/hugo-versions-in-hosting.md
 - content/portfolio/DurHack 2019.md
 - content/portfolio/hugo-portfolio-website.md
+- content/portfolio/oxford-digithon.md
+- content/portfolio/same-home-different-hacks.md
