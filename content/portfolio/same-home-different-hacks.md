@@ -18,3 +18,5 @@ name = "Flutter"
 url = "https://flutter.dev/"
 
 +++
+
+In this project we made an Android app to keep track of electronic components.
