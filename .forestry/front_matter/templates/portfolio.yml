@@ -58,6 +58,7 @@ fields:
 pages:
 - content/blog/hugo-versions-in-hosting.md
 - content/portfolio/DurHack 2019.md
+- content/portfolio/bioinformatics.md
 - content/portfolio/error-correcting-codes.md
 - content/portfolio/hugo-portfolio-website.md
 - content/portfolio/modelling-with-graphs.md
