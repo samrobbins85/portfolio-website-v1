@@ -3,7 +3,6 @@ categories = ["web-dev", "coursework"]
 coders = []
 date = 2019-02-14T00:00:00Z
 description = "Creating a reusable component from a p5 Sketch"
-draft = true
 github = ["https://github.com/samrobbins85/Programming-P5-Coursework"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593512330/p5js_hcoqdy.svg"
 title = "p5 Component"
