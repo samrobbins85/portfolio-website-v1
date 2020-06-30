@@ -18,3 +18,4 @@ name = "Python"
 url = "https://www.python.org/"
 
 +++
+In this coursework I implemented a range of graph algorithms using Python and NetworkX
