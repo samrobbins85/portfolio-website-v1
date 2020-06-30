@@ -5,7 +5,7 @@ image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592764375/log
 categories:
 - web-dev
 - hackathon
-description: My project created at DurHack 2019
+description: A tool to help people with dementia
 type: post
 coders:
 - samrobbins85
