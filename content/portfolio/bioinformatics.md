@@ -3,7 +3,6 @@ categories = ["coursework", "python"]
 coders = []
 date = 2019-05-02T23:00:00Z
 description = "Writing a range of algorithms for Bioinformatics"
-draft = true
 github = ["https://github.com/samrobbins85/CT-Bioinformatics-Coursework"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593532533/DNA_small_nbd7r5.svg"
 title = "Bioinformatics"
