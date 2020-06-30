@@ -3,19 +3,18 @@ categories = ["coursework", "python"]
 coders = []
 date = 2019-02-15T00:00:00Z
 description = "Implementing a range of algorithms for error correcting codes"
-draft = true
 github = []
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593531664/Hamming_distance_3_bit_binary_bxipcz.svg"
 title = "Error Correcting Codes"
 type = ""
 [[tech]]
-logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593531782/numpy_qiayvh.svg"
-name = "NumPy"
-url = "https://numpy.org/"
-[[tech]]
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_python_pjlesq.svg"
 name = "Python"
 url = "https://www.python.org/"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593531782/numpy_qiayvh.svg"
+name = "NumPy"
+url = "https://numpy.org/"
 
 +++
 In this coursework I implemented a range of functions for different methods of error correcting codes
@@ -43,6 +42,7 @@ def message(a):
 ```
 
 ### Hamming Encoder
+
 This acts as an encoder for hamming codes
 
 ```python
@@ -65,6 +65,7 @@ def hammingEncoder(m):
 ```
 
 ### Hamming decoder
+
 This acts as a decoder for hamming codes
 
 ```python
@@ -96,6 +97,7 @@ def hammingDecoder(v):
 ```
 
 ### Message from codeword
+
 This recovers the message from the codeword of a Hamming code
 
 ```python
@@ -121,15 +123,16 @@ def messageFromCodeword(c):
 ## Repetition Codes
 
 ### Repetition Encoder
+
 This creates a repetition code
 
 ```python
-
 def repetitionEncoder(m, n):
     return m * n if m == [1] or m == [0] else []
 ```
 
 ### Repetition Decoder
+
 This recovers the message from a repetition code
 
 ```python
