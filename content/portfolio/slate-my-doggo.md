@@ -3,7 +3,6 @@ categories = ["coursework", "web-dev"]
 coders = []
 date = 2019-05-01T23:00:00Z
 description = "A simple social media app"
-draft = true
 github = ["https://github.com/samrobbins85/Progamming-REST-Coursework"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593601766/reddit_jzxbda.svg"
 title = "Slate my doggo"
