@@ -184,8 +184,6 @@ education:
     year: 2013-2018
     academy: The King Edward VI School
     image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
-blog:
-  enable: true
 leadership:
   enable: true
   item:
