@@ -99,3 +99,48 @@ def hash_double(d):
 ```
 
 ## Ephemeral numbers
+
+This code calculates the number of ephemeral numbers between two values.
+
+A positive integer is k-ephemeral if its k-descendent sequence ends in 1, otherwise it is k-eternal.
+
+The k-descendant sequence of a positive integer begins with the integer and then each successive term is the k-child of the previous one. The sequence terminates if it reaches a 1 or a term is repeated.
+
+The k-child of a positive integer is the number obtained by taking the kth power of each digit and adding them.
+
+This is implemented using the following function
+
+```python
+def count_ephemeral(n1,n2,k):
+    # Create a list of the powers required for the given value of k
+    power_list=[x**k for x in range (10)]
+    # Count keeps track of the number of ephemeral numbers
+    count=0
+    # Create two tables, one to store the eternal numbers, and one to store the ephemeral numbers
+    eternal=set()
+    eph=set()
+    for n in range (n1,n2):
+        # Current sequence stores all the values in the current sequence
+        current_seq=set()
+        # This checks if n has been seen before or if it is 1, in any of those cases it will break out of the loop
+        while n not in current_seq and n not in eternal and n not in eph and n!=1:
+            # Add the new number to the current sequence
+            current_seq.add(n)
+            # Calculate the k child of n
+            k_child=0
+            while n:
+                digit = n % 10
+                k_child+=power_list[digit]
+                n //=10
+            n=k_child
+        # If n is an ephemeral number add it, and the rest of the sequence to the list of ephemeral numbers
+        if n==1 or n in eph:
+            eph.update(current_seq)
+            count+=1
+        # Otherwise add the sequence to the list of eternal numbers
+        else:
+            eternal.update(current_seq)
+    return count
+```
+
+## Sum and product expression
