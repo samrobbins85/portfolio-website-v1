@@ -15,6 +15,10 @@ url = "https://gohugo.io/"
 logo = "https://res.cloudinary.com/samrobbins/image/upload/v1591793279/logos/logos_uikit_irc5gp.svg"
 name = "UIkit"
 url = "https://getuikit.com/"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593603175/forestry-pos-full_lid6rs.svg"
+name = "Forestry CMS"
+url = "https://forestry.io/"
 
 +++
 I created my portfolio website using Hugo and UIKit, it serves as an online resume containing all my work.
@@ -91,6 +95,10 @@ If you just want to get set up with a new site, you can start from the Example S
 1. Cut the `exampleSite` folder out of the theme and paste it wherever you want
 2. Create a `theme` directory within the `exampleSite folder`
 3. Paste the theme into this directory, ensuring is has the name `hugo-developer-portfolio`
+
+## CMS
+
+For the content management system I have used Forestry CMS. This provides great flexibility for adding and editing content and integrates great with Hugo as it commits markdown files directly to GitHub.
 
 ## Configuration
 
@@ -200,10 +208,10 @@ social:
 
 #### about
 
-- `enable` can be used to hide this section
-- `content` determines what text is shown here
-- `btnText` changes the text on the button
-- `URL` changes the URL the button directs to
+* `enable` can be used to hide this section
+* `content` determines what text is shown here
+* `btnText` changes the text on the button
+* `URL` changes the URL the button directs to
 
 ```yml
 about:
@@ -216,10 +224,10 @@ about:
 
 #### skill
 
-- `enable` can be used to hide this section
-- `title` determines the text both under the image and in the modal
-- `logo` determines the image that shows up
-- `description` is the text that appears inside the modal
+* `enable` can be used to hide this section
+* `title` determines the text both under the image and in the modal
+* `logo` determines the image that shows up
+* `description` is the text that appears inside the modal
 
 ```yml
 skill:
@@ -232,11 +240,11 @@ skill:
 
 #### experience
 
-- `enable` can be used to hide this section
-- `logo` determines the image that shows up
-- `title` is the main text that appears in the card
-- `company` is the secondary text in the card
-- `duration` is the tertiary text in the card
+* `enable` can be used to hide this section
+* `logo` determines the image that shows up
+* `title` is the main text that appears in the card
+* `company` is the secondary text in the card
+* `duration` is the tertiary text in the card
 
 ```yml
 experience:
