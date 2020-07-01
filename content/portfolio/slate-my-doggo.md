@@ -24,6 +24,8 @@ url = "https://www.ecma-international.org/memento/tc39.htm"
 +++
 This site has a simple user interface with two buttons. The show me a random doggo button will select a random image, and the associated comments. The gimme more doggos button fetches new images using the Reddit API.
 
+![Screenshot of the site](https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1593602175/Screenshot_2020-07-01_Slate_my_Doggo_omtno5.png)
+
 ## API
 
 A REST API was implemented to allow for interfacing with the backend. The API was implemented with three functions
