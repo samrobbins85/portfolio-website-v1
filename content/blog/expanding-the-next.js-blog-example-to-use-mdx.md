@@ -3,7 +3,6 @@ categories = []
 coders = []
 date = 2020-07-10T23:00:00Z
 description = "How to integrate MDX into a Next.js site"
-draft = true
 github = []
 image = ""
 tech = []
@@ -75,25 +74,26 @@ and everything should "just work".
 One of the nice features of MDX is that underneath is uses Remark to transform the markdown. This means that you can use the large ecosystem of Remark plugins. The example I will use is the remark-emoji plugin, which converts shortcodes for emoji like :wave: to the actual emoji 👋.
 
 First install the `remark-emoji` plugin from npm with
-
-```
+```sh
 npm install --save remark-emoji
 ```
 
-Then import this into your project by adding 
+Then import this into your project by adding
+
 ```js
 import emoji from "remark-emoji";
-
 ```
+
 at the top of your file, then in the line in the function used earlier that defines `jsx` that looks like:
+
 ```js
 const jsx = await mdx(mdxCode, {skipExport: true})
 ```
 
 replace it with
+
 ```js
 const jsx = await mdx(mdxCode, { skipExport: true, remarkPlugins: [emoji] });
 ```
 
-and the plugin will work when you refresh the page
-
+and the plugin will work when you refresh the page.
