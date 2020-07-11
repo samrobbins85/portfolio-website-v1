@@ -56,6 +56,7 @@ fields:
     labelField: 
   label: Tech
 pages:
+- content/blog/expanding-the-next.js-blog-example-to-use-mdx.md
 - content/blog/hugo-versions-in-hosting.md
 - content/portfolio/DurHack 2019.md
 - content/portfolio/algorithms-and-data-structures.md
