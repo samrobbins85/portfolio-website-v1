@@ -164,7 +164,7 @@ hackathons:
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793399/stickers/durhack19_dzecbb.png
       url: "/portfolio/durhack-2019/"
     - title: DurHack 2018
-      description: Cult Bot
+      description: Discord Chatbot
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793396/stickers/durhack18_k2atqm.png
       url: none
 certifications:
