@@ -1,0 +1,19 @@
+leadership:
+  enable: true
+  item:
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
+      title: Young Leader
+      company: The Scout Association
+      duration: September 2014 - July 2018
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
+      title: Leader of the Space Club
+      company: The King Edward VI School
+      duration: April 2017 - April 2018
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_explorerbelt_ezjvqq.webp
+      title: Explorer Belt
+      company: The Scout Association
+      duration: August 2016
+    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_dofe_j7lpeh.webp
+      title: Bronze and Silver DofE
+      company: The Duke of Edinburgh's Award
+      duration: June 2014 - January 2017

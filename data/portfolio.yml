@@ -1,0 +1,9 @@
+filter:
+  - label: Web Dev
+    value: web-dev
+  - label: Hackathons
+    value: hackathon
+  - label: Python
+    value: python
+  - label: Coursework
+    value: coursework

@@ -173,6 +173,21 @@ certifications:
     - title: Microsoft Azure Fundamentals
       image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
       url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+awards:
+  enable: true
+  item:
+    - title: Phase 1 Winner
+      event: GNOME Community Engagement Challenge
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png
+    - title: Most Creative Hack
+      event: Oxford Digithon
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1593352345/twoo-home_k7molq.png
+    - title: Finalists and Best Use of MongoDB
+      event: DurHack 2019
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701216/logo19_dodnkk.svg
+    - title: Funniest Hack
+      event: DurHack 2018
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701213/br43jbo9tsbklzuqh8uu_svd0f3.png
 education:
   enable: true
   item:
@@ -184,32 +199,3 @@ education:
       year: 2013-2018
       academy: The King Edward VI School
       image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
-leadership:
-  enable: true
-  item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793280/logos/logos_yl_qozav6.webp
-      title: Young Leader
-      company: The Scout Association
-      duration: September 2014 - July 2018
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
-      title: Leader of the Space Club
-      company: The King Edward VI School
-      duration: April 2017 - April 2018
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_explorerbelt_ezjvqq.webp
-      title: Explorer Belt
-      company: The Scout Association
-      duration: August 2016
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_dofe_j7lpeh.webp
-      title: Bronze and Silver DofE
-      company: The Duke of Edinburgh's Award
-      duration: June 2014 - January 2017
-portfolio:
-  filter:
-    - label: Web Dev
-      value: web-dev
-    - label: Hackathons
-      value: hackathon
-    - label: Python
-      value: python
-    - label: Coursework
-      value: coursework
