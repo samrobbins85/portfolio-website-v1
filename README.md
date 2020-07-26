@@ -2,7 +2,6 @@
 ![Uptime Robot ratio (30 days)](https://img.shields.io/uptimerobot/ratio/m785610717-0b5160f4f5e53e854d743fbb?style=for-the-badge)
 ![Snyk Vulnerabilities for GitHub Repo](https://img.shields.io/snyk/vulnerabilities/github/samrobbins85/portfolio-website?style=for-the-badge)
 ![GitHub](https://img.shields.io/github/license/samrobbins85/portfolio-website?style=for-the-badge)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/git?s=https%3A%2F%2Fgithub.com%2Fsamrobbins85%2Fportfolio-website)
 # Portfolio Website
 
 This is the content of my personal website hosted at [samrobbins.uk](https://samrobbins.uk). The theme which I have made is stored in a separate github repository [hugo-developer-portfolio](https://github.com/samrobbins85/hugo-developer-portfolio). 
