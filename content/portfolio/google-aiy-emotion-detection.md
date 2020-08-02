@@ -2,7 +2,7 @@
 categories = ["python"]
 coders = []
 date = 2020-08-01T23:00:00Z
-description = "A program to detect emotion and respond"
+description = "A program to detect if you are sad and send dog pictures"
 draft = true
 github = ["https://github.com/samrobbins85/google-aiy-emotion"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1596387335/product_vision_1x-removebg_ggmlzk.png"
