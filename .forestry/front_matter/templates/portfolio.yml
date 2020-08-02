@@ -8,8 +8,9 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: list
-  name: categories
+- name: categories
+  type: tag_list
+  default: []
   label: categories
 - type: text
   name: description
