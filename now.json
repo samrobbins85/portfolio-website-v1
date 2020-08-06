@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "github": {
+	    "silent": true
+	},
   "alias": ["samrobbins.uk"],
   "name": "Personal Website",
   "redirects":[
