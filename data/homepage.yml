@@ -132,6 +132,10 @@ skill:
 experience:
   enable: true
   item:
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597050679/icon_fjhqxr.png
+    title: Student Intern
+    company: Global Cyber Alliance
+    duration: July 2020 - Present
   - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
     title: init.g
     company: Google
@@ -140,14 +144,6 @@ experience:
     title: Web Developer
     company: Physics and Maths Tutor
     duration: October 2019 - Present
-  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793274/logos/logos_nexus_i7azpj.webp
-    title: Work Experience
-    company: Nexus
-    duration: July 2017
-  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793274/logos/logos_nustem_l2nwbm.webp
-    title: Work Experience
-    company: nustem
-    duration: March 2015 - April 2015
 hackathons:
   enable: true
   item:
