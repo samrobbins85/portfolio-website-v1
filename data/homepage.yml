@@ -151,6 +151,10 @@ experience:
 hackathons:
   enable: true
   item:
+  - title: Auth0 Hackathon
+    description: Easy DMARC
+    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597044247/g12_vlt55w.png
+    url: none
   - title: Same Home Different Hacks
     description: Locate my tech
     image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592245893/shdh_rcmtav.png
