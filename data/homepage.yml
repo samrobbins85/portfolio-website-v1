@@ -34,6 +34,14 @@ portfolio:
       tools:
         - hugo
         - uikit
+    - title: Locate My Tech
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1597161431/locate_j2dzts.webp
+      description: An app to keep track of electronic components
+      link: "/portfolio/same-home-different-hacks"
+      tools:
+        - flutter
+        - dart
+        - firebase
 
 experience:
   enable: true
