@@ -55,8 +55,8 @@ fields:
       name: URL
       label: URL
 - type: field_group
-  name: skill
-  label: skill
+  name: portfolio
+  label: portfolio
   fields:
   - type: boolean
     name: enable
@@ -71,11 +71,15 @@ fields:
     - type: textarea
       name: description
       label: description
-    - name: logo
+    - name: image
       type: file
       config:
         maxSize: 64
-      label: Logo
+      label: Image
+    - name: tools
+      type: tag_list
+      default: []
+      label: tools
 - type: field_group
   name: experience
   label: experience
