@@ -178,5 +178,36 @@ fields:
       config:
         maxSize: 64
       label: Logo
+- name: awards
+  type: field_group
+  config: {}
+  fields:
+  - name: enable
+    type: boolean
+    label: enable
+  - name: item
+    type: field_group_list
+    fields:
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: event
+      type: text
+      config:
+        required: false
+      label: Event
+    - name: image
+      type: file
+      config:
+        maxSize: 64
+      label: Image
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: item
+  label: awards
 pages:
 - data/homepage.yml
