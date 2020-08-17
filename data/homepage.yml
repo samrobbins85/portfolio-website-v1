@@ -93,7 +93,7 @@ certifications:
 awards:
   enable: true
   item:
-  - title: 3rd Place Security
+  - title: Security 3rd Place
     event: Auth0 Hackathon
     image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793268/logos/logos_auth0_ruvdmp.svg
   - title: Phase 1 Winner
