@@ -1,0 +1,28 @@
+---
+label: Blog
+hide_body: false
+fields:
+- type: list
+  name: categories
+  label: categories
+- type: list
+  name: coders
+  label: coders
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: list
+  name: github
+  label: github
+- type: text
+  name: image
+  label: image
+- type: text
+  name: title
+  label: title
+- type: text
+  name: type
+  label: type
