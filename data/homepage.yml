@@ -2,12 +2,12 @@
 banner:
   title: Hi! I’m Sam
 social:
-  twitter: ""
+  twitter: ''
   linkedin: sam-robbins-gb
   github: samrobbins85
-  gitlab: ""
-  facebook: ""
-  instagram: ""
+  gitlab: ''
+  facebook: ''
+  instagram: ''
   gmail: samrobbinsgb
 about:
   enable: true
@@ -18,105 +18,107 @@ about:
 portfolio:
   enable: true
   item:
-    - title: Easy DMARC
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1597159067/Easy_DMARC_hkcgif.webp
-      description: A website to make it easy to add DMARC to a Vercel website
-      link: "/portfolio/easy-dmarc"
-      tools:
-        - next-dot-js
-        - tailwindcss
-        - vercel
-        - react
-    - title: Portfolio Website
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1597160559/Portfolio_dlr8tb.webp
-      description: A portfolio website for developers
-      link: "/portfolio/hugo-portfolio-website"
-      tools:
-        - hugo
-        - uikit
-    - title: Locate My Tech
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1597161431/locate_j2dzts.webp
-      description: An app to keep track of electronic components
-      link: "/portfolio/same-home-different-hacks"
-      tools:
-        - flutter
-        - dart
-        - firebase
-
+  - title: Easy DMARC
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1597159067/Easy_DMARC_hkcgif.webp
+    description: A website to make it easy to add DMARC to a Vercel website
+    link: "/portfolio/easy-dmarc"
+    tools:
+    - next-dot-js
+    - tailwindcss
+    - vercel
+    - react
+  - title: Portfolio Website
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1597160559/Portfolio_dlr8tb.webp
+    description: A portfolio website for developers
+    link: "/portfolio/hugo-portfolio-website"
+    tools:
+    - hugo
+    - uikit
+  - title: Locate My Tech
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1597161431/locate_j2dzts.webp
+    description: An app to keep track of electronic components
+    link: "/portfolio/same-home-different-hacks"
+    tools:
+    - flutter
+    - dart
+    - firebase
 experience:
   enable: true
   item:
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597050679/icon_fjhqxr.png
-      title: Student Intern
-      company: Global Cyber Alliance
-      duration: July 2020 - Present
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
-      title: init.g
-      company: Google
-      duration: November 2019
-    - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793275/logos/logos_pmt_tdrgcd.webp
-      title: Web Developer
-      company: Physics and Maths Tutor
-      duration: October 2019 - Present
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597050679/icon_fjhqxr.png
+    title: Student Intern
+    company: Global Cyber Alliance
+    duration: July 2020 - Present
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793271/logos/logos_google_id6v9a.svg
+    title: init.g
+    company: Google
+    duration: November 2019
+  - logo: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793275/logos/logos_pmt_tdrgcd.webp
+    title: Web Developer
+    company: Physics and Maths Tutor
+    duration: October 2019 - Present
 hackathons:
   enable: true
   item:
-    - title: Auth0 Hackathon
-      description: Easy DMARC
-      image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597044247/g12_vlt55w.png
-      url: "/portfolio/easy-dmarc"
-    - title: Same Home Different Hacks
-      description: Locate my tech
-      image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592245893/shdh_rcmtav.png
-      url: "/portfolio/same-home-different-hacks/"
-    - title: Oxford Digithon
-      description: Firefox Extension
-      image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1596734516/final_i4rrjv.png
-      url: "/portfolio/oxford-digithon/"
-    - title: Hack Cambridge 2019
-      description: Climate change simulator
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
-      url: none
-    - title: DurHack 2019
-      description: Dementia Helper
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793399/stickers/durhack19_dzecbb.png
-      url: "/portfolio/durhack-2019/"
-    - title: DurHack 2018
-      description: Discord Chatbot
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793396/stickers/durhack18_k2atqm.png
-      url: none
+  - title: Auth0 Hackathon
+    description: Easy DMARC
+    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597044247/g12_vlt55w.png
+    url: "/portfolio/easy-dmarc"
+  - title: Same Home Different Hacks
+    description: Locate my tech
+    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1592245893/shdh_rcmtav.png
+    url: "/portfolio/same-home-different-hacks/"
+  - title: Oxford Digithon
+    description: Firefox Extension
+    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1596734516/final_i4rrjv.png
+    url: "/portfolio/oxford-digithon/"
+  - title: Hack Cambridge 2019
+    description: Climate change simulator
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793405/stickers/Hack_Cambridge_101_ozoq5d.png
+    url: none
+  - title: DurHack 2019
+    description: Dementia Helper
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793399/stickers/durhack19_dzecbb.png
+    url: "/portfolio/durhack-2019/"
+  - title: DurHack 2018
+    description: Discord Chatbot
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793396/stickers/durhack18_k2atqm.png
+    url: none
 certifications:
   enable: true
   item:
-    - title: Microsoft Azure Fundamentals
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
-      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+  - title: Microsoft Azure Fundamentals
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+    url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
 awards:
   enable: true
   item:
-    - title: Phase 1 Winner
-      event: GNOME Community Engagement Challenge
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png
-    - title: Most Creative Hack
-      event: Oxford Digithon
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1593352345/twoo-home_k7molq.png
-    - title: Finalists and Best Use of MongoDB
-      event: DurHack 2019
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701216/logo19_dodnkk.svg
-    - title: Funniest Hack
-      event: DurHack 2018
-      image: https://res.cloudinary.com/samrobbins/image/upload/v1595701213/br43jbo9tsbklzuqh8uu_svd0f3.png
+  - title: Security 3rd Place
+    event: Auth0 Hackathon
+    image: https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793268/logos/logos_auth0_ruvdmp.svg
+  - title: Phase 1 Winner
+    event: GNOME Community Engagement Challenge
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1595701167/CEChallenge-P1Winner2_iyjvyu.png
+  - title: Most Creative Hack
+    event: Oxford Digithon
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1593352345/twoo-home_k7molq.png
+  - title: Finalists and Best Use of MongoDB
+    event: DurHack 2019
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1595701216/logo19_dodnkk.svg
+  - title: Funniest Hack
+    event: DurHack 2018
+    image: https://res.cloudinary.com/samrobbins/image/upload/v1595701213/br43jbo9tsbklzuqh8uu_svd0f3.png
 education:
   enable: true
   item:
-    - title: BSc Computer Science
-      year: 2018 - Present
-      academy: Durham University
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
-    - title: GCSEs and A Levels
-      year: 2013-2018
-      academy: The King Edward VI School
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
+  - title: BSc Computer Science
+    year: 2018 - Present
+    academy: Durham University
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+  - title: GCSEs and A Levels
+    year: 2013-2018
+    academy: The King Edward VI School
+    image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793272/logos/logos_kevi_ksyppz.webp
 blog:
   enable: false
 leadership:
