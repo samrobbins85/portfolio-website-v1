@@ -2,5 +2,9 @@
   "scripts": {
     "build": "hugo",
     "dev": "hugo server -D"
+  },
+  "devDependencies": {
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.7.6"
   }
 }
