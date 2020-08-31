@@ -6,6 +6,7 @@ description = "A website to store my university notes"
 github = ["https://github.com/samrobbins85/notes-site"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598867672/android-chrome-512x512_mtqwtx.png"
 title = "Notes Website"
+site="https://csnotes.me"
 type = ""
 [[tech]]
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597140056/next-black_csivx6.svg"
