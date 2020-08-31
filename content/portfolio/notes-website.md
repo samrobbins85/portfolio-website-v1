@@ -29,10 +29,6 @@ logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598868090/ka
 name = "KaTeX"
 url = "https://katex.org/"
 [[tech]]
-logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598868139/LaTeX_bdwfnq.svg"
-name = "LaTeX"
-url = "https://www.latex-project.org/"
-[[tech]]
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598868288/logo_cmoekx.svg"
 name = "Prism"
 url = "https://prismjs.com/"
@@ -40,10 +36,6 @@ url = "https://prismjs.com/"
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598868195/algolia_c7y4ic.svg"
 name = "Algolia"
 url = "https://www.algolia.com/"
-[[tech]]
-logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598868717/remark_y8xkpo.png"
-name = "Remark JS"
-url = "https://remark.js.org/"
 
 +++
 Test
