@@ -1,7 +1,7 @@
 module.exports = {
   purge: {
     content: [
-      "./layouts/**/*.html",
+      "./themes/hugo-developer-portfolio/layouts/**/*.html",
       "./content/**/*.md",
       "./content/**/*.html",
     ],
