@@ -3,7 +3,6 @@ categories = ["coursework"]
 coders = []
 date = 2020-03-02T00:00:00Z
 description = "Implementing Conway's Game of Life in C"
-draft = true
 github = ["https://github.com/samrobbins85/PP-Coursework"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598984975/Game_of_life_infinite2_k0a9dl.svg"
 site = ""
