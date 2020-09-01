@@ -5,8 +5,8 @@ date = 2020-08-30T23:00:00Z
 description = "A website to store my university notes"
 github = ["https://github.com/samrobbins85/notes-site"]
 image = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598867672/android-chrome-512x512_mtqwtx.png"
+site = "https://csnotes.me"
 title = "Notes Website"
-site="https://csnotes.me"
 type = ""
 [[tech]]
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1597140056/next-black_csivx6.svg"
@@ -32,6 +32,10 @@ url = "https://prismjs.com/"
 logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598868195/algolia_c7y4ic.svg"
 name = "Algolia"
 url = "https://www.algolia.com/"
+[[tech]]
+logo = "https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1598976828/github_hkr2ql.svg"
+name = "GitHub"
+url = "https://github.com/"
 
 +++
 This site was built to replace my [existing university notes](https://github.com/samrobbins85/university-notes). I wanted to do this as the PDFs produced by LaTeX weren't as accessible as I wanted them to be, such as not being easy to read on mobile devices. Another benefit that moving to a website brings is that I have the opportunity to include interactive elements.
@@ -74,13 +78,15 @@ All the styling is handled through [Tailwind CSS](https://tailwindcss.com/), thi
 
 ## Images
 
-Images were somewhat tricky as I couldn't use the same format as I had before where the images are with the content as images have to be served through the `public` directory. My solution to this was to create a very similar hierarchy in the content and images folder so that images are easy to find. 
+Images were somewhat tricky as I couldn't use the same format as I had before where the images are with the content as images have to be served through the `public` directory. My solution to this was to create a very similar hierarchy in the content and images folder so that images are easy to find.
 
 Another thing I did with the images was to convert them all to `webp` to improve pagespeed and reduce bandwidth usage. This was very good, reducing the total image size by over half.
 
 ## Algolia Search
 
-To provide search for this website I used Algolia DocSearch. Sadly as this isn't a documentation website I couldn't get it all provided for free, but luckily there is a very generous plan available for free with the GitHub education pack that provides everything I need. The only limitation is that I have to run the crawler myself, but I can set this up with a Raspberry Pi and a cron job later down the line.
+To provide search for this website I used Algolia DocSearch. Sadly as this isn't a documentation website I couldn't get it all provided for free, but luckily there is a very generous plan available for free with the GitHub education pack that provides everything I need. 
+
+The crawler is ran as a GitHub action so that it will be crawled every Saturday at 00:00 and can also be crawled whenever needed. This runs the docker container provided by Algolia with `config.js` and the environment variables provided via GitHub secrets.
 
 The setup for this was relatively easy as the (Algolia documentation)\[https://docsearch.algolia.com/docs/run-your-own\] is very good. One problem the crawler had was that the pages on the site don't have links to each other as they are rendered when you interact with the site. I solved this by generating a sitemap and passing this to the crawler instead. The search box styling provided by Algolia also isn't mobile friendly which is a bit of a pain, but can easily be solved with the workaround given in [this GitHub issue](https://github.com/algolia/docsearch/issues/181). I'm looking forward to DocSearch v3 which is set to come out soon.
 
