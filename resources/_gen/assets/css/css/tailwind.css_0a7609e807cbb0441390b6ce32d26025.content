@@ -18637,6 +18637,18 @@ video {
   animation: bounce 1s infinite;
 }
 
+@import url("https://rsms.me/inter/inter.css");
+
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

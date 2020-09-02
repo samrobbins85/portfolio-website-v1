@@ -5,6 +5,8 @@
   },
   "devDependencies": {
     "postcss-cli": "^7.1.1",
+    "prettier": "^2.1.1",
+    "prettier-plugin-go-template": "0.0.7",
     "tailwindcss": "^1.7.6"
   }
 }

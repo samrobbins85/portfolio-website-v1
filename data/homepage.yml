@@ -45,6 +45,9 @@ tools:
     - name: MDX
       image: https://res.cloudinary.com/samrobbins/image/upload/v1598898487/file_type_light_mdx_urhqrh.svg
       link: https://mdxjs.com/
+    - name: Node.js
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1593447212/nodejs-1_nrbgo0.svg
+      link: https://nodejs.org/en/
 
 portfolio:
   enable: true
