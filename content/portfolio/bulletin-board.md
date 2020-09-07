@@ -1,5 +1,5 @@
 +++
-categories = ["web-dev", "coursework", "python"]
+categories = ["coursework", "python"]
 coders = []
 date = 2019-12-06T00:00:00Z
 description = "Creating a bulletin board using Python socket programming"
