@@ -3,7 +3,7 @@
   "github": {
 	    "silent": true
 	},
-  "alias": ["samrobbins.uk"],
+  "alias": ["old.samrobbins.uk"],
   "name": "Personal Website",
   "redirects":[
     {"source": "/shdh", "destination": "https://samrobbins.uk/portfolio/same-home-different-hacks/"},
